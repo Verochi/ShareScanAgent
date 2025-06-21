@@ -1,0 +1,8 @@
+package com.huawei.agconnect;
+
+/* loaded from: classes22.dex */
+public interface CustomAuthProvider {
+    com.huawei.hmf.tasks.Task<com.huawei.agconnect.core.service.auth.Token> getTokens(boolean z);
+
+    java.lang.String getUid();
+}

@@ -1,0 +1,247 @@
+package io.reactivex.internal.operators.parallel;
+
+/* loaded from: classes13.dex */
+public final class ParallelMapTry<T, R> extends io.reactivex.parallel.ParallelFlowable<R> {
+    public final io.reactivex.parallel.ParallelFlowable<T> a;
+    public final io.reactivex.functions.Function<? super T, ? extends R> b;
+    public final io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> c;
+
+    /* renamed from: io.reactivex.internal.operators.parallel.ParallelMapTry$1, reason: invalid class name */
+    public static /* synthetic */ class AnonymousClass1 {
+        public static final /* synthetic */ int[] a;
+
+        static {
+            int[] iArr = new int[io.reactivex.parallel.ParallelFailureHandling.values().length];
+            a = iArr;
+            try {
+                iArr[io.reactivex.parallel.ParallelFailureHandling.RETRY.ordinal()] = 1;
+            } catch (java.lang.NoSuchFieldError unused) {
+            }
+            try {
+                a[io.reactivex.parallel.ParallelFailureHandling.SKIP.ordinal()] = 2;
+            } catch (java.lang.NoSuchFieldError unused2) {
+            }
+            try {
+                a[io.reactivex.parallel.ParallelFailureHandling.STOP.ordinal()] = 3;
+            } catch (java.lang.NoSuchFieldError unused3) {
+            }
+        }
+    }
+
+    public static final class ParallelMapTryConditionalSubscriber<T, R> implements io.reactivex.internal.fuseable.ConditionalSubscriber<T>, org.reactivestreams.Subscription {
+        public final io.reactivex.internal.fuseable.ConditionalSubscriber<? super R> n;
+        public final io.reactivex.functions.Function<? super T, ? extends R> t;
+        public final io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> u;
+        public org.reactivestreams.Subscription v;
+        public boolean w;
+
+        public ParallelMapTryConditionalSubscriber(io.reactivex.internal.fuseable.ConditionalSubscriber<? super R> conditionalSubscriber, io.reactivex.functions.Function<? super T, ? extends R> function, io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> biFunction) {
+            this.n = conditionalSubscriber;
+            this.t = function;
+            this.u = biFunction;
+        }
+
+        @Override // org.reactivestreams.Subscription
+        public void cancel() {
+            this.v.cancel();
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onComplete() {
+            if (this.w) {
+                return;
+            }
+            this.w = true;
+            this.n.onComplete();
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onError(java.lang.Throwable th) {
+            if (this.w) {
+                io.reactivex.plugins.RxJavaPlugins.onError(th);
+            } else {
+                this.w = true;
+                this.n.onError(th);
+            }
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onNext(T t) {
+            if (tryOnNext(t) || this.w) {
+                return;
+            }
+            this.v.request(1L);
+        }
+
+        @Override // io.reactivex.FlowableSubscriber, org.reactivestreams.Subscriber
+        public void onSubscribe(org.reactivestreams.Subscription subscription) {
+            if (io.reactivex.internal.subscriptions.SubscriptionHelper.validate(this.v, subscription)) {
+                this.v = subscription;
+                this.n.onSubscribe(this);
+            }
+        }
+
+        @Override // org.reactivestreams.Subscription
+        public void request(long j) {
+            this.v.request(j);
+        }
+
+        @Override // io.reactivex.internal.fuseable.ConditionalSubscriber
+        public boolean tryOnNext(T t) {
+            int i;
+            if (this.w) {
+                return false;
+            }
+            long j = 0;
+            do {
+                try {
+                    return this.n.tryOnNext(io.reactivex.internal.functions.ObjectHelper.requireNonNull(this.t.apply(t), "The mapper returned a null value"));
+                } catch (java.lang.Throwable th) {
+                    io.reactivex.exceptions.Exceptions.throwIfFatal(th);
+                    try {
+                        j++;
+                        i = io.reactivex.internal.operators.parallel.ParallelMapTry.AnonymousClass1.a[((io.reactivex.parallel.ParallelFailureHandling) io.reactivex.internal.functions.ObjectHelper.requireNonNull(this.u.apply(java.lang.Long.valueOf(j), th), "The errorHandler returned a null item")).ordinal()];
+                    } catch (java.lang.Throwable th2) {
+                        io.reactivex.exceptions.Exceptions.throwIfFatal(th2);
+                        cancel();
+                        onError(new io.reactivex.exceptions.CompositeException(th, th2));
+                        return false;
+                    }
+                }
+            } while (i == 1);
+            if (i != 2) {
+                if (i != 3) {
+                    cancel();
+                    onError(th);
+                    return false;
+                }
+                cancel();
+                onComplete();
+            }
+            return false;
+        }
+    }
+
+    public static final class ParallelMapTrySubscriber<T, R> implements io.reactivex.internal.fuseable.ConditionalSubscriber<T>, org.reactivestreams.Subscription {
+        public final org.reactivestreams.Subscriber<? super R> n;
+        public final io.reactivex.functions.Function<? super T, ? extends R> t;
+        public final io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> u;
+        public org.reactivestreams.Subscription v;
+        public boolean w;
+
+        public ParallelMapTrySubscriber(org.reactivestreams.Subscriber<? super R> subscriber, io.reactivex.functions.Function<? super T, ? extends R> function, io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> biFunction) {
+            this.n = subscriber;
+            this.t = function;
+            this.u = biFunction;
+        }
+
+        @Override // org.reactivestreams.Subscription
+        public void cancel() {
+            this.v.cancel();
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onComplete() {
+            if (this.w) {
+                return;
+            }
+            this.w = true;
+            this.n.onComplete();
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onError(java.lang.Throwable th) {
+            if (this.w) {
+                io.reactivex.plugins.RxJavaPlugins.onError(th);
+            } else {
+                this.w = true;
+                this.n.onError(th);
+            }
+        }
+
+        @Override // org.reactivestreams.Subscriber
+        public void onNext(T t) {
+            if (tryOnNext(t) || this.w) {
+                return;
+            }
+            this.v.request(1L);
+        }
+
+        @Override // io.reactivex.FlowableSubscriber, org.reactivestreams.Subscriber
+        public void onSubscribe(org.reactivestreams.Subscription subscription) {
+            if (io.reactivex.internal.subscriptions.SubscriptionHelper.validate(this.v, subscription)) {
+                this.v = subscription;
+                this.n.onSubscribe(this);
+            }
+        }
+
+        @Override // org.reactivestreams.Subscription
+        public void request(long j) {
+            this.v.request(j);
+        }
+
+        @Override // io.reactivex.internal.fuseable.ConditionalSubscriber
+        public boolean tryOnNext(T t) {
+            int i;
+            if (this.w) {
+                return false;
+            }
+            long j = 0;
+            do {
+                try {
+                    this.n.onNext(io.reactivex.internal.functions.ObjectHelper.requireNonNull(this.t.apply(t), "The mapper returned a null value"));
+                    return true;
+                } catch (java.lang.Throwable th) {
+                    io.reactivex.exceptions.Exceptions.throwIfFatal(th);
+                    try {
+                        j++;
+                        i = io.reactivex.internal.operators.parallel.ParallelMapTry.AnonymousClass1.a[((io.reactivex.parallel.ParallelFailureHandling) io.reactivex.internal.functions.ObjectHelper.requireNonNull(this.u.apply(java.lang.Long.valueOf(j), th), "The errorHandler returned a null item")).ordinal()];
+                    } catch (java.lang.Throwable th2) {
+                        io.reactivex.exceptions.Exceptions.throwIfFatal(th2);
+                        cancel();
+                        onError(new io.reactivex.exceptions.CompositeException(th, th2));
+                        return false;
+                    }
+                }
+            } while (i == 1);
+            if (i != 2) {
+                if (i != 3) {
+                    cancel();
+                    onError(th);
+                    return false;
+                }
+                cancel();
+                onComplete();
+            }
+            return false;
+        }
+    }
+
+    public ParallelMapTry(io.reactivex.parallel.ParallelFlowable<T> parallelFlowable, io.reactivex.functions.Function<? super T, ? extends R> function, io.reactivex.functions.BiFunction<? super java.lang.Long, ? super java.lang.Throwable, io.reactivex.parallel.ParallelFailureHandling> biFunction) {
+        this.a = parallelFlowable;
+        this.b = function;
+        this.c = biFunction;
+    }
+
+    @Override // io.reactivex.parallel.ParallelFlowable
+    public int parallelism() {
+        return this.a.parallelism();
+    }
+
+    @Override // io.reactivex.parallel.ParallelFlowable
+    public void subscribe(org.reactivestreams.Subscriber<? super R>[] subscriberArr) {
+        if (validate(subscriberArr)) {
+            int length = subscriberArr.length;
+            org.reactivestreams.Subscriber<? super T>[] subscriberArr2 = new org.reactivestreams.Subscriber[length];
+            for (int i = 0; i < length; i++) {
+                org.reactivestreams.Subscriber<? super R> subscriber = subscriberArr[i];
+                if (subscriber instanceof io.reactivex.internal.fuseable.ConditionalSubscriber) {
+                    subscriberArr2[i] = new io.reactivex.internal.operators.parallel.ParallelMapTry.ParallelMapTryConditionalSubscriber((io.reactivex.internal.fuseable.ConditionalSubscriber) subscriber, this.b, this.c);
+                } else {
+                    subscriberArr2[i] = new io.reactivex.internal.operators.parallel.ParallelMapTry.ParallelMapTrySubscriber(subscriber, this.b, this.c);
+                }
+            }
+            this.a.subscribe(subscriberArr2);
+        }
+    }
+}

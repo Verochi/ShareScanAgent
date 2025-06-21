@@ -1,0 +1,1156 @@
+[
+    {
+        "data_leak": "MethodInvocation: get",
+        "privacy_info": "opToken, TERMINAL_TYPE, use",
+        "third_party": "AliyunLogCommon",
+        "security_issue": "Potential sensitive data access without encryption",
+        "detail": "The method 'b' in class 'a' accesses sensitive data fields 'opToken', 'TERMINAL_TYPE', and 'use' via get operations without visible encryption. This could lead to privacy leaks if these values are transmitted or stored insecurely."
+    },
+    {
+        "data_leak": "MethodInvocation: put",
+        "privacy_info": "Network operator identifiers (CMCC/CUCC/CTCC)",
+        "third_party": "None",
+        "security_issue": "Hardcoded sensitive mapping without access control",
+        "detail": "Constructor 'x' stores hardcoded mappings of network operator identifiers (CMCC:1, CUCC:2, CTCC:3) via put operations. While not directly leaking data, this pattern could be risky if these mappings are used for authentication or sensitive operations without proper validation."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'appid' and value from MemberReference: b",
+        "privacy_info": "App identifier",
+        "third_party": "",
+        "security_issue": "Potential exposure of app identifier without encryption",
+        "detail": "App ID is being put into JSON object without visible encryption. Consider encrypting sensitive identifiers."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'traceId' and value from MemberReference: h",
+        "privacy_info": "User tracking identifier",
+        "third_party": "",
+        "security_issue": "Potential exposure of tracking identifier",
+        "detail": "Trace ID is being stored/transmitted which could be used for user tracking. Consider anonymization."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'operatorType' and value from get operation",
+        "privacy_info": "Mobile carrier information",
+        "third_party": "",
+        "security_issue": "Potential exposure of carrier information",
+        "detail": "Mobile carrier information is being collected and stored without visible user consent mechanism."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'networkType' and value from method invocation",
+        "privacy_info": "Network connection information",
+        "third_party": "",
+        "security_issue": "Potential exposure of network information",
+        "detail": "Network type information is being collected which could reveal user location patterns."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'brand' and value from method invocation",
+        "privacy_info": "Device information",
+        "third_party": "",
+        "security_issue": "Potential device fingerprinting",
+        "detail": "Device brand information is being collected which contributes to device fingerprinting."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'reqDevice' and value from method invocation",
+        "privacy_info": "Device information",
+        "third_party": "",
+        "security_issue": "Potential device fingerprinting",
+        "detail": "Additional device information is being collected which could uniquely identify the device."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'reqSystem' combining OS and version info",
+        "privacy_info": "Device OS information",
+        "third_party": "",
+        "security_issue": "Potential device fingerprinting",
+        "detail": "Detailed OS information is being collected which contributes to device fingerprinting."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'imsi' with empty value placeholder",
+        "privacy_info": "IMSI (International Mobile Subscriber Identity)",
+        "third_party": "",
+        "security_issue": "Potential IMSI collection framework",
+        "detail": "IMSI field exists in data structure though currently empty. This is highly sensitive information that should not be collected without explicit user consent."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'mobilebrand', 'mobilemodel', and 'mobilesystem'",
+        "privacy_info": "Detailed device information",
+        "third_party": "",
+        "security_issue": "Extensive device fingerprinting",
+        "detail": "Multiple detailed device characteristics are being collected which could uniquely identify the device."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'ipv4_list' and 'ipv6_list'",
+        "privacy_info": "IP addresses",
+        "third_party": "",
+        "security_issue": "Potential exposure of network identifiers",
+        "detail": "IP addresses are being collected which could reveal user location and network information."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'apppackage' and 'appsign'",
+        "privacy_info": "Application signature and package information",
+        "third_party": "",
+        "security_issue": "Potential exposure of application identifiers",
+        "detail": "Application package and signature information is being collected which could be used for tracking."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations collecting various device and usage data",
+        "privacy_info": "Multiple types of personal and device data",
+        "third_party": "com.heytap.mcssdk, com.aliyun.vod.log.core, com.meizu.cloud.pushsdk",
+        "security_issue": "Extensive data collection with multiple third-party SDKs",
+        "detail": "Code shows extensive data collection pattern with multiple third-party SDK integrations (HeyTap, Aliyun, Meizu). Consider reviewing data collection practices and providing clear privacy notice to users."
+    },
+    {
+        "data_leak": "MethodInvocation: put operations without visible encryption",
+        "privacy_info": "Various collected data",
+        "third_party": "",
+        "security_issue": "Lack of visible encryption",
+        "detail": "Multiple data collection operations are performed without visible encryption implementation for sensitive data."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'encrypted' and 'encryptedIV'",
+        "privacy_info": "Encrypted data and IV",
+        "third_party": "None",
+        "security_issue": "Potential sensitive data exposure",
+        "detail": "The code puts encrypted data and IV into a JSON object. Ensure these are properly secured and not exposed in logs or transmitted without proper encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'reqdata'",
+        "privacy_info": "Multiple fields including version, appid, and device identifiers",
+        "third_party": "None",
+        "security_issue": "Potential sensitive data exposure",
+        "detail": "The code constructs a request data string with multiple fields and puts it into a JSON object. Ensure sensitive fields are properly encrypted and not exposed."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'phone_ID'",
+        "privacy_info": "Device identifier",
+        "third_party": "None",
+        "security_issue": "Potential sensitive data exposure",
+        "detail": "The code puts a device identifier into a JSON object. Ensure this is properly secured and not exposed in logs or transmitted without proper encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'sign'",
+        "privacy_info": "Signature data",
+        "third_party": "None",
+        "security_issue": "Potential sensitive data exposure",
+        "detail": "The code puts a signature into a JSON object. Ensure this is properly secured and not exposed in logs or transmitted without proper encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: put with key 'data' and 'funcType'",
+        "privacy_info": "Function type and data",
+        "third_party": "None",
+        "security_issue": "Potential sensitive data exposure",
+        "detail": "The code puts function type and data into a JSON object. Ensure these are properly secured and not exposed in logs or transmitted without proper encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data 'sign', 'msgid', 'systemtime', 'appid', 'version' into jSONObject2",
+        "privacy_info": "Authentication tokens, message IDs, system timestamps, application IDs, version information",
+        "third_party": "None",
+        "security_issue": "Potential exposure of sensitive data in JSON objects",
+        "detail": "Multiple put operations are storing sensitive data into JSON objects without clear encryption. This could lead to data exposure if the JSON is transmitted or stored insecurely."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data 'optoken', 'TERMINAL_TYPE', 'expired' into hashMap",
+        "privacy_info": "Authentication tokens, device type information, expiration timestamps",
+        "third_party": "Aliyun (com.aliyun.vod.log.core.AliyunLogCommon)",
+        "security_issue": "Sensitive authentication data storage",
+        "detail": "Storing authentication tokens and device information in hashMap without encryption. The use of Aliyun SDK suggests this data might be transmitted to Aliyun services."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data 'traceId', 'appid' into hashMap",
+        "privacy_info": "Tracking IDs, application IDs",
+        "third_party": "Baidu (com.baidu.mobads.sdk.internal.am), AnyThink (com.anythink.expressad.foundation.g.f.g.b)",
+        "security_issue": "Tracking information exposure",
+        "detail": "Storing trace IDs and app IDs that could be used for user tracking. Multiple third-party SDKs (Baidu, AnyThink) are involved in these operations."
+    },
+    {
+        "data_leak": "HTTP connection handling with potential location data ('pplocation', 'Location')",
+        "privacy_info": "Geolocation data",
+        "third_party": "None",
+        "security_issue": "Potential location data exposure",
+        "detail": "Code handles location-related headers ('pplocation', 'Location') which could expose geolocation information if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: write with data encoded in UTF-8",
+        "privacy_info": "Potentially any sensitive data",
+        "third_party": "None",
+        "security_issue": "Lack of encryption in data transmission",
+        "detail": "Multiple write operations are sending data through output streams with UTF-8 encoding but without apparent encryption, risking exposure during transmission."
+    },
+    {
+        "data_leak": "MethodInvocation: put with error information into hashMap",
+        "privacy_info": "Error messages, system information",
+        "third_party": "None",
+        "security_issue": "Potential information disclosure through error messages",
+        "detail": "Error information is being collected and stored which might contain sensitive system or debugging information if not properly sanitized."
+    },
+    {
+        "data_leak": "MethodInvocation: append",
+        "privacy_info": "App foreground/background status",
+        "third_party": "None",
+        "security_issue": "Potential logging of sensitive app state information",
+        "detail": "In AnonymousClass1.appVisibleCallBack(), app state (foreground/background) is being appended to a string buffer. This could potentially leak sensitive information about app usage patterns if logged or transmitted."
+    },
+    {
+        "data_leak": "MethodInvocation: getSystemService",
+        "privacy_info": "Sensor data",
+        "third_party": "None",
+        "security_issue": "Sensor data collection without clear user consent",
+        "detail": "The code accesses SensorManager to get accelerometer data (type 10) for shake detection. While not directly leaking data, sensor access should have proper user consent and data handling policies."
+    },
+    {
+        "data_leak": "MethodInvocation: put, MethodInvocation: get",
+        "privacy_info": "HTTP headers and parameters",
+        "third_party": "None",
+        "security_issue": "Potential exposure of HTTP communication details",
+        "detail": "HttpUrlHeader class contains put/get operations for HTTP headers. While not directly showing data leakage, header manipulation could expose sensitive information if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: append with HTTP request construction",
+        "privacy_info": "HTTP request details",
+        "third_party": "None",
+        "security_issue": "Potential logging of full HTTP requests",
+        "detail": "In class b.C0027b, the code constructs curl commands with full HTTP request details including headers and body. If logged, this could expose sensitive request data."
+    },
+    {
+        "data_leak": "MethodInvocation: write",
+        "privacy_info": "Raw data output",
+        "third_party": "None",
+        "security_issue": "Potential unencrypted data transmission",
+        "detail": "Multiple instances of direct write operations to output streams without visible encryption. This could lead to data leakage if transmitting sensitive information."
+    },
+    {
+        "data_leak": "MethodInvocation: decodeResource",
+        "privacy_info": "Resource identifiers",
+        "third_party": "None",
+        "security_issue": "Potential resource fingerprinting",
+        "detail": "Accessing drawable resources (tanx_shake_phone) could potentially be used to fingerprint the application if exposed."
+    },
+    {
+        "data_leak": "Cookie data being added to HTTP headers",
+        "privacy_info": "Authentication tokens/Session cookies",
+        "third_party": "Alipay SDK (com.alipay.android.phone.mrpc.core)",
+        "security_issue": "Potential cookie leakage in HTTP requests",
+        "detail": "Code adds cookies to HTTP headers via addHeader() method. Found in StatementExpression adding 'cookie' header with getCookie() method call. This could expose session tokens in network traffic if not properly secured with HTTPS."
+    },
+    {
+        "data_leak": "Network information collection",
+        "privacy_info": "Device network status/connectivity",
+        "third_party": "Android SDK",
+        "security_issue": "Network information gathering",
+        "detail": "Code retrieves network connectivity information via ConnectivityManager.getSystemService() and checks isAvailable()/isConnectedOrConnecting() status. While common for app functionality, could be considered sensitive device information."
+    },
+    {
+        "data_leak": "HTTP cookie store access",
+        "privacy_info": "Stored HTTP cookies",
+        "third_party": "Apache HTTP Client",
+        "security_issue": "Cookie storage handling",
+        "detail": "Code sets HTTP cookie store attribute ('http.cookie-store') which may contain sensitive session information. Found in StatementExpression setting attribute on member variable g."
+    },
+    {
+        "data_leak": "HTTP request/response handling",
+        "privacy_info": "HTTP traffic data",
+        "third_party": "Apache HTTP Client",
+        "security_issue": "Potential plaintext communication",
+        "detail": "Multiple references to Apache HTTP Client components (HttpHost, HttpRequest, HttpParams) without visible encryption enforcement. Ensure all communications use HTTPS to prevent data leakage."
+    },
+    {
+        "data_leak": "HTTP proxy settings (host and port) are retrieved and used to configure HTTP requests",
+        "privacy_info": "Network configuration (proxy settings)",
+        "third_party": "org.apache.http",
+        "security_issue": "Proxy configuration may expose internal network information",
+        "detail": "Code retrieves default proxy settings (host and port) from android.net.Proxy and uses them to configure HTTP requests. This could expose internal network configuration if sent to external servers."
+    },
+    {
+        "data_leak": "HTTP cookies are processed and potentially stored",
+        "privacy_info": "Session cookies, authentication tokens",
+        "third_party": "android.webkit.CookieSyncManager",
+        "security_issue": "Cookie handling without proper security validation",
+        "detail": "Code processes HTTP cookies from responses and may store them. There's no visible encryption or secure flag handling for sensitive cookies."
+    },
+    {
+        "data_leak": "HTTP request/response handling with status codes and reason phrases",
+        "privacy_info": "Server response metadata",
+        "third_party": "org.apache.http",
+        "security_issue": "Potential exposure of server error information",
+        "detail": "Code processes HTTP status codes and reason phrases which could expose server-side information if logged or transmitted improperly."
+    },
+    {
+        "data_leak": "Network request timing information is collected",
+        "privacy_info": "Request timing metrics",
+        "third_party": "None",
+        "security_issue": "Potential side-channel information leak",
+        "detail": "Code records timing information (currentTimeMillis) for network requests which could be used for fingerprinting or timing attacks."
+    },
+    {
+        "data_leak": "Localhost/127.0.0.1 address checking",
+        "privacy_info": "Network configuration",
+        "third_party": "None",
+        "security_issue": "Potential internal network exposure",
+        "detail": "Code specifically checks for 127.0.0.1 address which might indicate sensitive local service communication."
+    },
+    {
+        "data_leak": "MethodInvocation: toString on exception objects",
+        "privacy_info": "Exception stack traces and error messages",
+        "third_party": "com.alipay.android.phone.mrpc.core",
+        "security_issue": "Potential exposure of sensitive error information",
+        "detail": "Multiple catch clauses are converting exceptions to strings which may contain sensitive information. Found in various CatchClause nodes with MethodInvocation: toString operations on exception objects."
+    },
+    {
+        "data_leak": "MethodInvocation: append with exception information",
+        "privacy_info": "Exception details and system information",
+        "third_party": "com.alipay.android.phone.mrpc.core",
+        "security_issue": "Logging sensitive error information",
+        "detail": "Exception details are being appended to StringBuffer objects in com.alipay.android.phone.mrpc.core.a.d and com.alipay.android.phone.mrpc.core.a.e classes, which could expose sensitive system information."
+    },
+    {
+        "data_leak": "ThreadLocal data access",
+        "privacy_info": "Thread-local storage data",
+        "third_party": "com.alipay.android.phone.mrpc.core",
+        "security_issue": "Unsecured thread-local data access",
+        "detail": "ThreadLocal data is being accessed in com.alipay.android.phone.mrpc.core.z without clear security measures, which could expose thread-specific sensitive data."
+    },
+    {
+        "data_leak": "HTTP exception handling",
+        "privacy_info": "Network operation details and error codes",
+        "third_party": "com.alipay.android.phone.mrpc.core",
+        "security_issue": "Exposure of network operation details",
+        "detail": "Various HTTP-related exceptions (SSL, connection timeouts, etc.) are being converted to HttpException with specific error codes, potentially exposing network operation details."
+    },
+    {
+        "data_leak": "MethodInvocation: getExternalStorageDirectory",
+        "privacy_info": "External storage path",
+        "third_party": "",
+        "security_issue": "Accessing external storage without permission check",
+        "detail": "Accessing external storage directory in MethodDeclaration: d without proper permission checks. This could expose sensitive file paths."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations on jSONObject",
+        "privacy_info": "Device settings (ringer mode, volume levels)",
+        "third_party": "",
+        "security_issue": "Collecting and potentially transmitting device settings",
+        "detail": "MethodDeclaration: f collects various device settings (ringer mode, system volume, ring volume, music volume, alarm volume) and puts them in a JSON object without encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: getSensorList and sensor information collection",
+        "privacy_info": "Sensor information (name, version, vendor)",
+        "third_party": "",
+        "security_issue": "Collecting detailed sensor information",
+        "detail": "MethodDeclaration: h and MethodDeclaration: i collect detailed sensor information including name, version, and vendor, which could be used for device fingerprinting."
+    },
+    {
+        "data_leak": "MethodInvocation: getDeviceId",
+        "privacy_info": "Device IMEI",
+        "third_party": "",
+        "security_issue": "Accessing device identifier without permission",
+        "detail": "MethodDeclaration: a accesses device IMEI through getDeviceId() which is considered sensitive information."
+    },
+    {
+        "data_leak": "MethodInvocation: getSubscriberId",
+        "privacy_info": "IMSI (International Mobile Subscriber Identity)",
+        "third_party": "",
+        "security_issue": "Accessing subscriber identifier without permission",
+        "detail": "MethodDeclaration: b accesses IMSI through getSubscriberId() which is highly sensitive information."
+    },
+    {
+        "data_leak": "MethodInvocation: registerReceiver for BATTERY_CHANGED intent",
+        "privacy_info": "Battery status and level",
+        "third_party": "",
+        "security_issue": "Collecting battery information",
+        "detail": "MethodDeclaration: q registers a receiver for BATTERY_CHANGED intent, collecting battery status information."
+    },
+    {
+        "data_leak": "Multiple system file accesses and checks",
+        "privacy_info": "System build information, hardware details",
+        "third_party": "",
+        "security_issue": "Checking system files for device fingerprinting",
+        "detail": "Methods r, s, and t access and check various system files (/system/build.prop, /proc/tty/drivers, etc.) and system properties, potentially for device fingerprinting."
+    },
+    {
+        "data_leak": "MethodInvocation: getMethod and invoke for baseband version",
+        "privacy_info": "Baseband version",
+        "third_party": "",
+        "security_issue": "Reflective access to sensitive system information",
+        "detail": "MethodDeclaration: k uses reflection to access gsm.version.baseband information."
+    },
+    {
+        "data_leak": "Access to display metrics (widthPixels, heightPixels)",
+        "privacy_info": "Screen resolution",
+        "third_party": "",
+        "security_issue": "Collecting device display information",
+        "detail": "MethodDeclaration: k and MethodDeclaration: l collect screen resolution information."
+    },
+    {
+        "data_leak": "Access to system time information",
+        "privacy_info": "System uptime and timestamps",
+        "third_party": "",
+        "security_issue": "Collecting timing information",
+        "detail": "MethodDeclaration: n and MethodDeclaration: o collect system timing information (currentTimeMillis, elapsedRealtime)."
+    },
+    {
+        "data_leak": "Xiaomi SDK references",
+        "privacy_info": "",
+        "third_party": "Xiaomi",
+        "security_issue": "Third-party SDK usage",
+        "detail": "Multiple references to com.xiaomi.mipush.sdk.Constants found in the code."
+    },
+    {
+        "data_leak": "Alipay SDK package",
+        "privacy_info": "",
+        "third_party": "Alipay",
+        "security_issue": "SDK package structure",
+        "detail": "Code is part of com.alipay.sdk package structure."
+    },
+    {
+        "data_leak": "Lack of encryption",
+        "privacy_info": "All collected data",
+        "third_party": "",
+        "security_issue": "No visible encryption of sensitive data",
+        "detail": "No evidence of encryption for any of the collected sensitive data before storage or transmission."
+    },
+    {
+        "data_leak": "MethodInvocation: put",
+        "privacy_info": "JSON data",
+        "third_party": "Alipay SDK",
+        "security_issue": "Unencrypted data storage",
+        "detail": "Method 'put' is used to store data in a HashMap without visible encryption. This could lead to sensitive data leakage if the storage is compromised. Found in MethodDeclaration: a -> WhileStatement -> TryStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: get",
+        "privacy_info": "Extras data",
+        "third_party": "Alipay SDK",
+        "security_issue": "Unencrypted data retrieval",
+        "detail": "Method 'get' retrieves data from 'extras' without visible encryption. Found in MethodDeclaration: a -> IfStatement -> ForStatement -> TryStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: sendBroadcast",
+        "privacy_info": "Intent data",
+        "third_party": "Android",
+        "security_issue": "Broadcast without proper protection",
+        "detail": "Method 'sendBroadcast' sends an intent without visible permission check or protection. Found in MethodDeclaration: a -> TryStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: startActivity",
+        "privacy_info": "URI data",
+        "third_party": "Android",
+        "security_issue": "Intent launch without validation",
+        "detail": "Method 'startActivity' launches an activity with a URI without visible validation. Found in MethodDeclaration: a -> IfStatement -> TryStatement -> IfStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: decode",
+        "privacy_info": "URL-encoded data",
+        "third_party": "java.net.URLDecoder",
+        "security_issue": "URL decoding without validation",
+        "detail": "Method 'decode' from URLDecoder is used without visible input validation. Found in MethodDeclaration: b -> ForStatement -> IfStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke",
+        "privacy_info": "Reflection call",
+        "third_party": "Java Reflection",
+        "security_issue": "Unsafe reflection usage",
+        "detail": "Method 'invoke' is used with reflection without visible security checks. Found in MethodDeclaration: c -> TryStatement -> ReturnStatement."
+    },
+    {
+        "data_leak": "MethodInvocation: getBusLines",
+        "privacy_info": "Location data",
+        "third_party": "amap",
+        "security_issue": "Potential location data collection",
+        "detail": "Method 'getBusLines' in class 'p' may be collecting location data without clear user consent or encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: getCellLocation",
+        "privacy_info": "Device cellular location",
+        "third_party": "amap",
+        "security_issue": "Cellular location access",
+        "detail": "Multiple methods ('k', 'm') access telephonyManager.getCellLocation() which exposes precise cellular tower location data. No encryption or user consent flow visible."
+    },
+    {
+        "data_leak": "FieldDeclaration: DEVICE_MODEL, OS_VERSION",
+        "privacy_info": "Device identifiers",
+        "third_party": "aliyun",
+        "security_issue": "Device fingerprinting",
+        "detail": "Collects Build.MODEL and Build.VERSION.RELEASE in AliyunLogCommon class for logging purposes, creating device fingerprints."
+    },
+    {
+        "data_leak": "MethodInvocation: registerReceiver (BATTERY_CHANGED)",
+        "privacy_info": "Battery status",
+        "third_party": "aliyun",
+        "security_issue": "System status monitoring",
+        "detail": "In DeviceInfoUtils.getElectricUsageRatio(), registers receiver for android.intent.action.BATTERY_CHANGED which exposes battery level/status."
+    },
+    {
+        "data_leak": "FieldDeclaration: UUID",
+        "privacy_info": "Device UUID",
+        "third_party": "aliyun",
+        "security_issue": "Persistent device identifier",
+        "detail": "AliyunLogCommon stores UUID field (initialized as null but likely populated at runtime) which could be used for tracking."
+    },
+    {
+        "data_leak": "MethodInvocation: getNetworkDnsInfo",
+        "privacy_info": "Network information",
+        "third_party": "aliyun",
+        "security_issue": "Network configuration exposure",
+        "detail": "Collects DNS server information via getHostAddress() calls and concatenates results, exposing network configuration."
+    },
+    {
+        "data_leak": "MethodInvocation: put (UIModeType)",
+        "privacy_info": "In DeviceInfoUtils.getDeviceFeature(), puts system feature flags (UIModeType) into JSONObject without apparent encryption.",
+        "third_party": "aliyun",
+        "security_issue": "System feature enumeration"
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive permission states",
+        "privacy_info": "Location, Storage, App List, Phone State, OAID, App Update, Running App, Device Info permissions",
+        "third_party": "baidu.mobads",
+        "security_issue": "Potential collection of multiple sensitive permission states without clear user consent",
+        "detail": "In MobadsPermissionSettings class, multiple put operations are storing sensitive permission states (like location access, storage access, app list access etc.) into a JSONObject. This could lead to unauthorized collection of privacy-sensitive device permissions."
+    },
+    {
+        "data_leak": "MethodInvocation: get for 'name' and put for 'id'",
+        "privacy_info": "Potential device/user identifiers",
+        "third_party": "baidu.mobads",
+        "security_issue": "Possible collection of identifiers without proper encryption",
+        "detail": "In com.baidu.mobads.sdk.internal.b.a class, there's retrieval of 'name' data and storage of 'id' data with complex ternary operations. This could involve handling of sensitive identifiers without visible encryption measures."
+    },
+    {
+        "data_leak": "File deletion operation",
+        "privacy_info": "Potential local file data",
+        "third_party": "anythink.expressad",
+        "security_issue": "Unclear file deletion context",
+        "detail": "In com.anythink.expressad.d.b.a class, there's a file deletion operation without clear context about what files are being deleted. This could potentially remove privacy-related files without proper safeguards."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Device IMEI",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "IMEI is being put into a JSON object without visible encryption. Found in AnonymousClass4's run method."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Device MAC address",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "MAC address is being put into a JSON object without visible encryption. Found in AnonymousClass4's run method."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Device IMSI",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "IMSI is being put into a JSON object without visible encryption. Found in AnonymousClass4's run method."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Android ID",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "Android ID is being put into a JSON object without visible encryption. Found in AnonymousClass4's run method."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "OAID (Open Anonymous Device Identifier)",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "OAID is being put into a JSON object without visible encryption. Found in AnonymousClass4's run method."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Device manufacturer and model information",
+        "third_party": "com.getui.gs.h.a.a",
+        "security_issue": "No encryption observed",
+        "detail": "Device manufacturer and model information is being collected and put into JSON objects in multiple locations."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations",
+        "privacy_info": "Various device identifiers and metadata",
+        "third_party": "Multiple including com.vivo.push, com.huawei.hms, com.bytedance.sdk",
+        "security_issue": "Extensive device fingerprinting without clear user consent",
+        "detail": "The code collects numerous device identifiers (IMEI, MAC, IMSI, Android ID, OAID) and metadata (manufacturer, model, system version) and shares them with multiple third-party SDKs including Vivo Push, Huawei HMS, and ByteDance SDK."
+    },
+    {
+        "data_leak": "MethodInvocation: encodeToString with session data",
+        "privacy_info": "User session data",
+        "third_party": "android.util.Base64",
+        "security_issue": "Base64 encoding is not encryption",
+        "detail": "Session data is being encoded with Base64 but not properly encrypted before transmission."
+    },
+    {
+        "data_leak": "Multiple put operations storing encoded/encrypted data",
+        "privacy_info": "Potential sensitive configuration keys or tokens",
+        "third_party": "com.getui.gtc",
+        "security_issue": "Storing multiple encoded values without clear encryption context",
+        "detail": "Found 26 consecutive put() operations storing Base64-encoded values (e.g., 'XhNWH0ANTAVL', 'XhNWHy4=') which appear to be configuration keys or tokens. While encoded, the purpose and sensitivity of this data isn't clear from context. The Getui SDK (com.getui) is being used for these operations."
+    },
+    {
+        "data_leak": "Key-value retrieval via get operations",
+        "privacy_info": "Potential configuration parameters or identifiers",
+        "third_party": "com.getui.gtc",
+        "security_issue": "Unclear data handling in getKey() operations",
+        "detail": "Multiple getKey() operations on dimRequest objects without visible encryption/decryption steps. The method appears to handle some configuration logic ('dim-2-2-0-1' hardcoded reference found)."
+    },
+    {
+        "data_leak": "Reflective method invocation",
+        "privacy_info": "Potential runtime-sensitive operations",
+        "third_party": "None",
+        "security_issue": "Unsafe reflection usage",
+        "detail": "Method invoke() being called with potential null parameters and dynamic string inputs (str2), which could be dangerous if attacker-controlled."
+    },
+    {
+        "data_leak": "Anonymous class data handling",
+        "privacy_info": "Request processing logic",
+        "third_party": "com.getui.gtc",
+        "security_issue": "Opaque data processing",
+        "detail": "Two anonymous classes (AnonymousClass2/3) implement get() methods that process dimRequest objects through non-transparent a() method calls, obscuring data flow."
+    },
+    {
+        "data_leak": "MethodInvocation: get",
+        "privacy_info": "HTTP headers and data",
+        "third_party": "com.google.common.net.HttpHeaders",
+        "security_issue": "Potential exposure of HTTP headers and data",
+        "detail": "The code retrieves HTTP headers and data from a HashMap without apparent encryption or access control. This could expose sensitive information such as 'Date' and 'data' headers."
+    },
+    {
+        "data_leak": "MethodInvocation: registerReceiver",
+        "privacy_info": "Broadcast receiver registration",
+        "third_party": "android.content",
+        "security_issue": "Unprotected broadcast receiver registration",
+        "detail": "Multiple instances of registerReceiver are called without proper permission checks, potentially allowing unauthorized access to broadcast data."
+    },
+    {
+        "data_leak": "MethodInvocation: append",
+        "privacy_info": "Device and network information",
+        "third_party": "com.xiaomi.mipush.sdk.Constants",
+        "security_issue": "Potential collection of device identifiers and network info",
+        "detail": "The code appears to be collecting and concatenating various device and network information (including timestamps divided by 1000) into a string buffer without clear user consent or encryption."
+    },
+    {
+        "data_leak": "MethodInvocation: get",
+        "privacy_info": "Package information",
+        "third_party": "android.content.pm",
+        "security_issue": "Access to package information",
+        "detail": "The code retrieves package information (packageName) and stores it without apparent access control, potentially exposing installed application data."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke",
+        "privacy_info": "Reflective method calls",
+        "third_party": "java.lang.reflect",
+        "security_issue": "Unsafe reflective method invocation",
+        "detail": "Multiple reflective method invocations (getMethod and invoke) are used without proper validation, which could lead to security vulnerabilities if attacker-controlled data is used."
+    },
+    {
+        "data_leak": "MethodInvocation: query with contentResolver accessing '_id' and 'sim_id'",
+        "privacy_info": "SIM card identifiers",
+        "third_party": "",
+        "security_issue": "Potential access to sensitive SIM card information without clear user consent",
+        "detail": "The code queries contentResolver for '_id' and 'sim_id' which are sensitive SIM card identifiers. This could violate user privacy if collected without proper disclosure and consent."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke with telephonyManager accessing device information",
+        "privacy_info": "Device telephony information",
+        "third_party": "",
+        "security_issue": "Potential access to telephony information without clear purpose",
+        "detail": "The code uses reflection to invoke methods on telephonyManager which could access sensitive device information. The exact data being accessed isn't clear from the invocation."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations storing device information in JSONObject",
+        "privacy_info": "Device hardware information (baseband, board, platform, flavor, cgroup)",
+        "third_party": "",
+        "security_issue": "Collection of extensive device fingerprinting data",
+        "detail": "The code collects and stores multiple device identifiers including baseband version, product board, platform, build flavor, and cgroup information. This creates a detailed device fingerprint that could be used for tracking."
+    },
+    {
+        "data_leak": "MethodInvocation: getName and getAddress on defaultAdapter",
+        "privacy_info": "Bluetooth device name and address",
+        "third_party": "",
+        "security_issue": "Access to Bluetooth device information",
+        "detail": "The code accesses Bluetooth adapter's name and address information, which could be used for device tracking."
+    },
+    {
+        "data_leak": "MethodInvocation: get on map with character values",
+        "privacy_info": "Potential character encoding/decoding of sensitive data",
+        "third_party": "",
+        "security_issue": "Obfuscated data handling",
+        "detail": "The code performs complex character encoding/decoding operations which might be used to obfuscate sensitive data handling. The exact nature of the data isn't clear from the structure."
+    },
+    {
+        "data_leak": "MethodInvocation: put with sensitive data",
+        "privacy_info": "Device ID (gtcid), OAID, Android ID, phone model",
+        "third_party": "com.getui.gtc",
+        "security_issue": "No encryption observed",
+        "detail": "Multiple put operations found storing device identifiers (gtcid, oaid, androidAid, phoneModel) into JSONObject without visible encryption. These are considered sensitive personal device identifiers under most privacy regulations."
+    },
+    {
+        "data_leak": "MethodInvocation: getPackageName",
+        "privacy_info": "Application package name",
+        "third_party": "com.getui.gtc",
+        "security_issue": "No encryption observed",
+        "detail": "Retrieves and stores application package name via getPackageName() call without visible encryption. This could be used to fingerprint the application."
+    },
+    {
+        "data_leak": "MethodInvocation: put with configuration data",
+        "privacy_info": "System configuration parameters",
+        "third_party": "com.getui.gtc",
+        "security_issue": "No encryption observed",
+        "detail": "Stores system configuration parameters (dim-2-2-0-1, sdk.gtc.dim.halfclosed.enable) in hash maps without visible encryption. May reveal system configuration details."
+    },
+    {
+        "data_leak": "Google SDK usage",
+        "privacy_info": "Potential user interaction data",
+        "third_party": "com.google.android.material",
+        "security_issue": "Standard SDK usage",
+        "detail": "Google Material Design components being used (PasswordToggleEndIconDelegate). This is normal SDK usage but should be reviewed for any data collection policies."
+    },
+    {
+        "data_leak": "MediaType handling",
+        "privacy_info": "Content type metadata",
+        "third_party": "com.google.common.net",
+        "security_issue": "Standard library usage",
+        "detail": "Google Guava MediaType class being used for content type handling. Normal library usage but part of data processing pipeline."
+    },
+    {
+        "data_leak": "MethodInvocation: getActiveNetworkInfo",
+        "privacy_info": "Network information",
+        "third_party": "Huawei",
+        "security_issue": "Potential network information exposure",
+        "detail": "The method 'getActiveNetworkInfo' is called which may expose sensitive network information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "MethodInvocation: getDnsServerIpsFromConnectionManager",
+        "privacy_info": "DNS server information",
+        "third_party": "Huawei",
+        "security_issue": "Potential DNS information exposure",
+        "detail": "The method 'getDnsServerIpsFromConnectionManager' is called which may expose DNS server information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "MethodInvocation: getInfoWithReflect",
+        "privacy_info": "Signal strength information",
+        "third_party": "Huawei",
+        "security_issue": "Potential signal strength information exposure",
+        "detail": "The method 'getInfoWithReflect' is called which may expose signal strength information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations in getLteSignalInfo",
+        "privacy_info": "LTE signal information (RSRP, RSRQ, RSSNR, CQI, RSSI)",
+        "third_party": "Huawei",
+        "security_issue": "Potential LTE signal information exposure",
+        "detail": "Multiple 'put' operations are performed in 'getLteSignalInfo' method which may expose LTE signal information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "Multiple MethodInvocation: put operations in getNrSignalInfo",
+        "privacy_info": "NR signal information (DBM, CSIRSRP, CSIRSRQ, CSISINR, SSRSRP, SSRSRQ, SSSINR)",
+        "third_party": "Huawei",
+        "security_issue": "Potential NR signal information exposure",
+        "detail": "Multiple 'put' operations are performed in 'getNrSignalInfo' method which may expose NR signal information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "MethodInvocation: getBSSID",
+        "privacy_info": "WiFi BSSID",
+        "third_party": "Huawei",
+        "security_issue": "Potential WiFi BSSID exposure",
+        "detail": "The method 'getBSSID' is called which may expose WiFi BSSID information. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "MethodInvocation: put operations in feedbackPushMessage",
+        "privacy_info": "Push message details (messageid, taskid, multaid, timestamp)",
+        "third_party": "iGeXin",
+        "security_issue": "Potential push message details exposure",
+        "detail": "Multiple 'put' operations are performed in 'feedbackPushMessage' method which may expose push message details. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "MethodInvocation: getPackageName",
+        "privacy_info": "Application package name",
+        "third_party": "vivo",
+        "security_issue": "Potential application package name exposure",
+        "detail": "The method 'getPackageName' is called which may expose the application package name. Ensure this data is handled securely and not leaked to unauthorized parties."
+    },
+    {
+        "data_leak": "Multiple put operations on JSONObject with sensitive data",
+        "privacy_info": "Device identifiers (cid, appid, sn), Timestamps, User tags, Message content (extraData)",
+        "third_party": "com.igexin.push, com.baidu.mobads, com.meizu.cloud.pushsdk",
+        "security_issue": "Potential unencrypted transmission of sensitive data",
+        "detail": "Multiple MethodInvocation: put operations found storing device identifiers (cid, appid, sn), timestamps, and message content (extraData) in JSON objects. Data includes encoded strings (URLEncoder) and Base64 encoded extraData. No visible encryption before transmission. Third-party SDKs involved: Getui Push (com.igexin), Baidu MobAds (com.baidu.mobads), Meizu Push (com.meizu.cloud.pushsdk)."
+    },
+    {
+        "data_leak": "Storage of timestamp-keyed data in com.igexin.push.core.e.al",
+        "privacy_info": "Timestamp-keyed user data",
+        "third_party": "com.igexin.push",
+        "security_issue": "Unclear data retention policy",
+        "detail": "MethodInvocation: put stores timestamp-keyed data (currentTimeMillis6) in com.igexin.push.core.e.al map without visible expiration mechanism."
+    },
+    {
+        "data_leak": "Base64 encoding of byteArray as extraData",
+        "privacy_info": "Potentially sensitive message content",
+        "third_party": "",
+        "security_issue": "Encoding without encryption",
+        "detail": "MethodInvocation: encodeToString (android.util.Base64) used for byteArray content without prior encryption. Base64 is encoding, not encryption."
+    },
+    {
+        "data_leak": "URL encoding of string data",
+        "privacy_info": "User tags or identifiers",
+        "third_party": "com.baidu.mobads",
+        "security_issue": "Encoding without encryption",
+        "detail": "MethodInvocation: encode (java.net.URLEncoder) used for string data via Baidu MobAds reference (com.baidu.mobads.sdk.internal.bm.l). URL encoding doesn't provide confidentiality."
+    },
+    {
+        "data_leak": "Multiple put operations on JSONObject with sensitive data",
+        "privacy_info": "Device information (model, sim, imei, mac, version, channelid, deviceid, brand, system_version, cell, aid, adid, gtcid, oaid), User information (notification_enabled, installChannel), App information (appid, taskid)",
+        "third_party": "com.baidu.mobads.sdk.internal.bm, com.huawei.hms.push.constant.RemoteMessageConst",
+        "security_issue": "No encryption or authorization observed for sensitive data",
+        "detail": "Multiple sensitive device and user information are being put into JSONObject without any visible encryption or authorization. This includes IMEI, MAC address, device ID, etc. Third-party SDKs like Baidu MobAds and Huawei HMS are referenced."
+    },
+    {
+        "data_leak": "put operations on JSONObject with action and id",
+        "privacy_info": "Action and ID information",
+        "third_party": "None",
+        "security_issue": "No encryption or authorization observed",
+        "detail": "Action and ID information are being put into JSONObject without any visible encryption or authorization."
+    },
+    {
+        "data_leak": "put operations on JSONObject with guardMe and guardOthers",
+        "privacy_info": "Security guard information",
+        "third_party": "None",
+        "security_issue": "No encryption or authorization observed",
+        "detail": "Security guard information (guardMe and guardOthers) are being put into JSONObject without any visible encryption or authorization."
+    },
+    {
+        "data_leak": "put operations on sparseArray and c with class creators",
+        "privacy_info": "Class and method references",
+        "third_party": "None",
+        "security_issue": "Potential insecure class loading",
+        "detail": "Class creators are being put into sparseArray and c without any visible security checks. This could lead to insecure class loading."
+    },
+    {
+        "data_leak": "append operations on sb with member references",
+        "privacy_info": "String data",
+        "third_party": "None",
+        "security_issue": "No encryption or authorization observed",
+        "detail": "String data is being appended to sb without any visible encryption or authorization."
+    },
+    {
+        "data_leak": "Multiple put operations on JSONObject with sensitive device information",
+        "privacy_info": "Device model, SIM info, IMEI, MAC address, device ID, brand, system version, cell info, advertising ID, OAID, notification status, installation channel",
+        "third_party": "com.igexin.push, com.huawei.hms.push",
+        "security_issue": "No visible encryption or authorization for sensitive data collection",
+        "detail": "Class 'a' in com.igexin.push.core.b.a collects and packages multiple device identifiers (IMEI, MAC, device ID, etc.) into JSON objects without visible encryption. Includes Huawei push SDK reference (DEVICE_TOKEN)."
+    },
+    {
+        "data_leak": "Cell location and telephony data collection",
+        "privacy_info": "Cell location info, signal strength, service state",
+        "third_party": "com.loc (高德地图)",
+        "security_issue": "Location data collection without clear user consent mechanism",
+        "detail": "Class 'fd' in com.loc.fd implements multiple telephony listeners (onCellLocationChanged, onSignalStrengthsChanged) collecting cellular network data. Contains methods for processing cell info (methods a, e, f)."
+    },
+    {
+        "data_leak": "Device ID collection via telephony manager",
+        "privacy_info": "Device IMEI",
+        "third_party": "com.meizu.cloud.pushsdk",
+        "security_issue": "Plaintext device identifier collection",
+        "detail": "Method 'b' in com.meizu.cloud.pushsdk.b.c directly calls telephonyManager.getDeviceId() without encryption."
+    },
+    {
+        "data_leak": "View interaction tracking and dynamic content management",
+        "privacy_info": "UI interaction events, view identifiers",
+        "third_party": "com.sensorsdata.sf (神策数据)",
+        "security_issue": "Behavioral tracking without opt-out mechanism",
+        "detail": "DynamicViewHelper in com.sensorsdata.sf.ui.view tracks view interactions (onClick) and manages dynamic content (addViewDynamic/getViewDynamic) with put/get operations on JSON objects and HashMaps."
+    },
+    {
+        "data_leak": "Unspecified data collection via concurrent hashmap",
+        "privacy_info": "Unknown data type (key-value pairs)",
+        "third_party": "com.tramini.plugin",
+        "security_issue": "Opaque data collection implementation",
+        "detail": "Method 'a' in com.tramini.plugin.b.b performs put operations on a ConcurrentHashMap with unspecified data types (variables 'next' and 'cVar')."
+    },
+    {
+        "data_leak": "Method 'put' is used to store data in a hashMap with key \"__ct__\" and value derived from parameter 'i'",
+        "privacy_info": "User behavior data (event tracking)",
+        "third_party": "Umeng Analytics (com.umeng.analytics)",
+        "security_issue": "Potential unencrypted storage of user behavior data",
+        "detail": "In MethodDeclaration: onEventValue, sensitive event data is being stored in a hashMap without visible encryption. Key \"__ct__\" suggests this may be tracking user behavior/click-through data."
+    },
+    {
+        "data_leak": "Context and application context are being passed through multiple method calls",
+        "privacy_info": "Device context information",
+        "third_party": "Umeng SDK (com.umeng.commonsdk)",
+        "security_issue": "Context sharing without proper access control",
+        "detail": "Application context is being shared with multiple Umeng components (UMGlobalContext, UMWorkDispatch) without clear access control checks. This could expose device information."
+    },
+    {
+        "data_leak": "Appkey and channel information is being stored and compared",
+        "privacy_info": "Application identification data",
+        "third_party": "Umeng SDK (com.umeng.commonsdk)",
+        "security_issue": "Potential exposure of app identifiers",
+        "detail": "Methods setAppkey/getLastAppkey/setChannel handle application identifiers without encryption. Debug logs show these values being compared and potentially exposed in debug mode."
+    },
+    {
+        "data_leak": "Error reporting sends throwable information to Umeng crash reporting",
+        "privacy_info": "Crash/error data including stack traces",
+        "third_party": "Umeng Crash Reporting (com.umeng.umcrash)",
+        "security_issue": "Potential exposure of sensitive stack traces",
+        "detail": "Method reportError invokes UMCrash functionality to report errors/throwables without visible filtering of sensitive information."
+    },
+    {
+        "data_leak": "Reflection used to check for presence of Umeng components (PushAgent, UMShareAPI)",
+        "privacy_info": "SDK integration information",
+        "third_party": "Umeng Push (com.umeng.message), Umeng Social (com.umeng.socialize)",
+        "security_issue": "Unclear data collection scope",
+        "detail": "Code checks for presence of PushAgent and UMShareAPI components via reflection, suggesting these SDKs might be collecting additional data when present."
+    },
+    {
+        "data_leak": "通过反射调用UMShareAPI的init方法，传递应用上下文和AppKey",
+        "privacy_info": "应用AppKey",
+        "third_party": "com.umeng.socialize.UMShareAPI",
+        "security_issue": "未加密传输敏感数据",
+        "detail": "使用反射调用UMShareAPI的init方法，传递了应用的AppKey和上下文信息，存在敏感数据泄露风险。建议对AppKey进行加密处理，并确保传输安全。"
+    },
+    {
+        "data_leak": "通过反射调用MessageSharedPrefs的setMessageAppKey和setMessageAppSecret方法，传递AppKey和AppSecret",
+        "privacy_info": "应用AppKey和AppSecret",
+        "third_party": "com.umeng.message.MessageSharedPrefs",
+        "security_issue": "未加密存储和传输敏感数据",
+        "detail": "使用反射调用MessageSharedPrefs的方法，传递了应用的AppKey和AppSecret，这些信息可能被存储在本地或传输到服务器。建议对敏感数据进行加密存储和传输。"
+    },
+    {
+        "data_leak": "通过反射调用UMGameAgent的setGameScenarioType方法，传递应用上下文",
+        "privacy_info": "应用上下文信息",
+        "third_party": "com.umeng.analytics.game.UMGameAgent",
+        "security_issue": "未授权访问",
+        "detail": "使用反射调用UMGameAgent的方法，传递了应用上下文信息，可能存在未授权访问风险。建议增加权限检查，确保只有授权模块可以访问这些方法。"
+    },
+    {
+        "data_leak": "通过反射调用MobclickAgent的init和disableExceptionCatch方法，传递应用上下文",
+        "privacy_info": "应用上下文信息",
+        "third_party": "com.umeng.analytics.MobclickAgent",
+        "security_issue": "未授权访问",
+        "detail": "使用反射调用MobclickAgent的方法，传递了应用上下文信息，可能存在未授权访问风险。建议增加权限检查，确保只有授权模块可以访问这些方法。"
+    },
+    {
+        "data_leak": "通过反射调用PushAgent的init方法，传递应用上下文",
+        "privacy_info": "应用上下文信息",
+        "third_party": "com.umeng.message.PushAgent",
+        "security_issue": "未授权访问",
+        "detail": "使用反射调用PushAgent的方法，传递了应用上下文信息，可能存在未授权访问风险。建议增加权限检查，确保只有授权模块可以访问这些方法。"
+    },
+    {
+        "data_leak": "通过反射调用UMError的init方法，传递应用上下文",
+        "privacy_info": "应用上下文信息",
+        "third_party": "com.umeng.error.UMError",
+        "security_issue": "未授权访问",
+        "detail": "使用反射调用UMError的方法，传递了应用上下文信息，可能存在未授权访问风险。建议增加权限检查，确保只有授权模块可以访问这些方法。"
+    },
+    {
+        "data_leak": "MethodInvocation: invoke with applicationContext, sAppkey, sChannel",
+        "privacy_info": "App key, Channel information",
+        "third_party": "com.umeng.umefs.UMEfs, com.umeng.umcrash.UMCrash",
+        "security_issue": "Reflection used to invoke methods with sensitive data",
+        "detail": "The code uses reflection to invoke methods with application context, app key, and channel information. This could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke with applicationContext, sAppkey, sChannel, i, str3",
+        "privacy_info": "App key, Channel information, Integer value, String value",
+        "third_party": "com.umeng.vt.facade.EventFacade",
+        "security_issue": "Reflection used to invoke methods with sensitive data",
+        "detail": "The code uses reflection to invoke methods with application context, app key, channel information, and other parameters. This could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke with applicationContext, sAppkey",
+        "privacy_info": "App key",
+        "third_party": "com.umeng.vt.common.VTTracker",
+        "security_issue": "Reflection used to invoke methods with sensitive data",
+        "detail": "The code uses reflection to invoke methods with application context and app key. This could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: put with preInitInvokedFlag, policyGrantInvokedFlag, policyGrantResult",
+        "privacy_info": "Initialization flags, Policy grant result",
+        "third_party": "org.json.JSONObject",
+        "security_issue": "Sensitive data stored in JSON object",
+        "detail": "The code stores initialization flags and policy grant results in a JSON object, which could be exposed if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: sendEvent with applicationContext, jSONObject",
+        "privacy_info": "Application context, JSON data",
+        "third_party": "com.umeng.commonsdk.framework.UMWorkDispatch",
+        "security_issue": "Sensitive data sent via event",
+        "detail": "The code sends application context and JSON data via an event, which could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: sendEvent with applicationContext, null",
+        "privacy_info": "Application context",
+        "third_party": "com.umeng.commonsdk.framework.UMWorkDispatch",
+        "security_issue": "Sensitive data sent via event",
+        "detail": "The code sends application context via an event, which could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: sendEvent with context, null",
+        "privacy_info": "Context",
+        "third_party": "com.umeng.commonsdk.framework.UMWorkDispatch",
+        "security_issue": "Sensitive data sent via event",
+        "detail": "The code sends context via an event, which could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "MethodInvocation: invoke with applicationContext2",
+        "privacy_info": "Application context",
+        "third_party": "com.umeng.cconfig.UMRemoteConfig",
+        "security_issue": "Reflection used to invoke methods with sensitive data",
+        "detail": "The code uses reflection to invoke methods with application context. This could lead to sensitive data exposure if not properly secured."
+    },
+    {
+        "data_leak": "通过SharedPreferences存储和获取数据",
+        "privacy_info": "设备信息、应用信息、用户标识符",
+        "third_party": "Xiaomi",
+        "security_issue": "明文存储敏感信息",
+        "detail": "在com.xiaomi.push.service.cp类中，通过getSharedPreferences方法存储和获取了包括uuid、gaid、appid、apptoken等敏感信息。这些信息可能包含用户隐私数据，且未加密存储。建议对敏感信息进行加密处理后再存储。"
+    },
+    {
+        "data_leak": "通过TreeMap收集设备信息",
+        "privacy_info": "设备型号、系统版本、品牌、RAM、ROM等硬件信息",
+        "third_party": "Xiaomi",
+        "security_issue": "收集过多设备信息",
+        "detail": "在com.xiaomi.push.service.cp类中，通过TreeMap收集了大量设备信息，包括MODEL、BOARD、BRAND、RAM、ROM等。这些信息可能被用于用户画像。建议仅收集必要的最小化信息。"
+    },
+    {
+        "data_leak": "通过ContentResolver查询设备信息",
+        "privacy_info": "设备方向信息",
+        "third_party": "CyberAgent",
+        "security_issue": "查询设备敏感信息",
+        "detail": "在jp.co.cyberagent.android.gpuimage.GPUImage类中，通过ContentResolver查询了设备的orientation信息。虽然这不是最敏感的信息，但仍属于设备隐私数据。建议评估是否真的需要此信息。"
+    },
+    {
+        "data_leak": "通过SharedPreferences存储账户信息",
+        "privacy_info": "账户信息",
+        "third_party": "Xiaomi",
+        "security_issue": "明文存储账户信息",
+        "detail": "在mipush_account的SharedPreferences中存储了账户相关信息，包括enc_req_fail_count等。这些信息未加密存储，存在泄露风险。建议对账户相关信息进行加密处理。"
+    },
+    {
+        "data_leak": "MethodInvocation: getPassword",
+        "privacy_info": "Password",
+        "third_party": "",
+        "security_issue": "Sensitive data access without encryption",
+        "detail": "The method 'getPassword' is accessed in StandardDecrypter class without visible encryption handling. Passwords should be handled with secure encryption during storage and transmission."
+    },
+    {
+        "data_leak": "MethodInvocation: initKeys with password parameter",
+        "privacy_info": "Password-derived encryption keys",
+        "third_party": "",
+        "security_issue": "Potential weak key derivation",
+        "detail": "Password is directly used for key initialization in StandardDecrypter. Consider using strong key derivation functions like PBKDF2 with proper iteration counts."
+    },
+    {
+        "data_leak": "MemberReference: bArr (byte array) operations",
+        "privacy_info": "Encrypted/decrypted file content",
+        "third_party": "",
+        "security_issue": "Raw byte array handling",
+        "detail": "Multiple operations on raw byte arrays (bArr) in crypto operations without clear memory sanitization. Sensitive data in memory should be cleared after use."
+    },
+    {
+        "data_leak": "MethodInvocation: write with raw byte arrays",
+        "privacy_info": "File content",
+        "third_party": "",
+        "security_issue": "Unencrypted data transfer",
+        "detail": "ZipEngine class writes raw byte arrays to output streams. Ensure proper encryption is applied before writing sensitive file contents."
+    },
+    {
+        "data_leak": "Reference to com.google.common.base.Ascii",
+        "privacy_info": "",
+        "third_party": "Google Guava",
+        "security_issue": "Third-party dependency",
+        "detail": "Code references Google Guava library (Ascii class). Ensure this dependency is properly vetted and kept up-to-date for security patches."
+    },
+    {
+        "data_leak": "MethodInvocation: get",
+        "privacy_info": "URL parameters, query strings",
+        "third_party": "okhttp3",
+        "security_issue": "Potential exposure of sensitive URL components",
+        "detail": "Multiple get method invocations in HttpUrl.Builder class may expose URL components like query parameters. Ensure sensitive data in URLs is properly sanitized or encrypted."
+    },
+    {
+        "data_leak": "MethodInvocation: toString",
+        "privacy_info": "Full URL with potential query parameters",
+        "third_party": "okhttp3",
+        "security_issue": "URL string conversion without sanitization",
+        "detail": "toString method in HttpUrl class constructs full URL strings which may contain sensitive query parameters. Consider implementing sensitive data filtering before string conversion."
+    },
+    {
+        "data_leak": "MethodInvocation: queryParameter",
+        "privacy_info": "Query parameter names and values",
+        "third_party": "okhttp3",
+        "security_issue": "Direct access to query parameters",
+        "detail": "queryParameter methods provide direct access to URL query components. Implement access control for sensitive parameters."
+    },
+    {
+        "data_leak": "ReferenceType: com.alipay.sdk.m.n.a",
+        "privacy_info": "Potential payment/sensitive data",
+        "third_party": "Alipay SDK",
+        "security_issue": "Third-party payment SDK reference",
+        "detail": "Reference to Alipay SDK (com.alipay.sdk.m.n.a) detected. Ensure proper data handling and encryption when interacting with payment SDKs."
+    },
+    {
+        "data_leak": "MethodInvocation: getEffectiveTldPlusOne",
+        "privacy_info": "Domain information",
+        "third_party": "okhttp3.internal.publicsuffix.PublicSuffixDatabase",
+        "security_issue": "Domain parsing without validation",
+        "detail": "topPrivateDomain method uses PublicSuffixDatabase to extract domain information. Validate domains against allowlists when handling sensitive operations."
+    },
+    {
+        "data_leak": "MethodInvocation: log with password information",
+        "privacy_info": "Password",
+        "third_party": "",
+        "security_issue": "Clear text logging of sensitive data",
+        "detail": "In CVSPass.execute() method, password is logged in clear text via MethodInvocation: log. This exposes sensitive credentials in log files. Recommend removing or encrypting password logging."
+    },
+    {
+        "data_leak": "MethodInvocation: write with password file content",
+        "privacy_info": "Password file content",
+        "third_party": "",
+        "security_issue": "Unprotected password file handling",
+        "detail": "In CVSPass.execute() method, password file content is written without encryption via MethodInvocation: write. This could expose sensitive credentials. Recommend using encrypted storage for password files."
+    },
+    {
+        "data_leak": "MethodInvocation: append with potential sensitive data",
+        "privacy_info": "Potentially sensitive string data",
+        "third_party": "",
+        "security_issue": "Unclear data handling in string buffers",
+        "detail": "Multiple MethodInvocation: append operations on string buffers without clear data classification (in Metaphone, PhoneticEngine and CVSPass classes). Recommend reviewing if these buffers contain sensitive data and implementing proper sanitization."
+    },
+    {
+        "data_leak": "MethodInvocation: put with property values",
+        "privacy_info": "Configuration properties",
+        "third_party": "",
+        "security_issue": "Potential sensitive property exposure",
+        "detail": "In MailLogger.buildFinished(), properties are stored via MethodInvocation: put without clear security validation. Some properties might contain sensitive configuration data. Recommend implementing property value filtering."
+    },
+    {
+        "data_leak": "MethodInvocation: put with 'properties' and 'getUserId'",
+        "privacy_info": "User ID",
+        "third_party": "None",
+        "security_issue": "Sensitive data stored without encryption",
+        "detail": "User ID is being put into properties without encryption in the getConnection method. This could lead to unauthorized access to user information."
+    },
+    {
+        "data_leak": "MethodInvocation: put with 'properties' and 'getPassword'",
+        "privacy_info": "Password",
+        "third_party": "None",
+        "security_issue": "Sensitive data stored without encryption",
+        "detail": "Password is being put into properties without encryption in the getConnection method. This is a critical security risk as passwords should never be stored in plaintext."
+    },
+    {
+        "data_leak": "MethodInvocation: append with 'getPassword'",
+        "privacy_info": "Password",
+        "third_party": "None",
+        "security_issue": "Sensitive data logged or stored without encryption",
+        "detail": "Password is being appended to a string buffer in the buildArgsPrefix method of WebLogicHotDeploymentTool. This could lead to passwords being logged or stored insecurely."
+    },
+    {
+        "data_leak": "MethodInvocation: log with email addresses",
+        "privacy_info": "Email addresses",
+        "third_party": "None",
+        "security_issue": "PII exposure in logs",
+        "detail": "Email addresses (From, ReplyTo, To, Cc, Bcc) are being logged in the execute method of EmailTask. This exposes personally identifiable information in log files."
+    },
+    {
+        "data_leak": "MethodInvocation: setUser with email user information",
+        "privacy_info": "Email account credentials",
+        "third_party": "None",
+        "security_issue": "Potential credential exposure",
+        "detail": "Email user information is being set in the execute method of EmailTask and setUser method of Mailer. These credentials should be properly secured."
+    }
+]

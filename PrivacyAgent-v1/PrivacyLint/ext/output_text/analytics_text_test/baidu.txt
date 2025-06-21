@@ -1,0 +1,146 @@
+{
+    "exceptions": {
+        "We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:": 2,
+        "Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.": 8
+    },
+    "performance": {
+        "endTime": 1746017088.566218,
+        "startTime": 1746017009.221554
+    },
+    "all": {
+        "When providing you with search, information flow, and weather services, in order to provide you with services that are more in line with your search/browsing needs (such as providing you with local/same city/city channel services, providing more accurate search results, and information flow recommendations), we will use location information related to this service.": 1,
+        "You can check the privacy permission details and turn off the corresponding permissions through the system settings or in the \"Baidu\" mobile application [My]-[Privacy Settings]-[App Permission Description]-[Go to App Permission Settings].": 1,
+        "We will collect and use your personal information in accordance with the principles of lawfulness, legitimateness and necessity.": 1,
+        "When you use innovative advertising interaction functions (such as shake, twist, etc.), we will use the device acceleration sensor to identify and judge your device status and provide you with jump services.": 1,
+        "When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.": 1,
+        "When you make transactions with a third party in the \"Baidu\" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the \"Shipping Address\" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.": 4,
+        "When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).": 1,
+        "the user uploads or saves pictures/video for the first time, he asks Yes": 1,
+        "We may share de-identified equipment information with partners to facilitate partners to conduct equipment security verification, identification, filter and intercept cheating and other illegal and irregular situations.": 1,
+        "When you choose to use third-party applet services, with your authorization and consent, we will provide your information to the third-party applet service provider in accordance with your authorization so that it can provide you with services based on relevant information.": 1,
+        "If at any time the guardian has reason to believe that we have collected personal information of minors without the guardian's consent, please contact us through [My]-[Settings]-[Help and Feedback] in the \"Baidu\" mobile application, and we will take measures to delete the relevant data as soon as possible.": 1,
+        "If we share your sensitive personal information or the recipient changes the purpose of the use and processing of personal information, you will seek your authorization and consent again.": 1,
+        "We will authenticate and control the identity of employees who process personal information, and will sign confidentiality agreements with employees and partners who are in contact with your personal information, clarify job responsibilities and code of conduct, and ensure that only authorized personnel can access personal information.": 1,
+        "We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:": 2,
+        "We will use tag information for specific scenarios and purposes to make automated decisions, and push personalized information and/or commercial marketing information to you.": 1,
+        "We promise to use technical measures of de-identification, anonymization or encryption algorithms to process data and adopt encrypted transmission methods to ensure data security.": 1,
+        "When you use our products/services, we may collect your sensor information to adapt to the status of your device.": 1,
+        "For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).": 1,
+        "We will provide your personal information to third parties providing you with your service based on your valid authorization or as necessary to enter into and perform a contract with an individual as a party.": 1,
+        "In order to jointly provide you with services, improve the security and convenience of your use of products, and ensure consistent service experience, we will share your personal information between affiliated companies or users of the same account system under the premise of complying with legal requirements.": 1,
+        "When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.": 1,
+        "When you use the Message Notification Service, we may collect and use your location information in order to push more relevant message notifications to you.": 1,
+        "We will continuously train and feedback the recommended model based on your usage behavior to adjust and optimize the recommendation results; in order to prevent homogeneous content concentration and meet your diverse needs, we continuously adjust the optimization model through machine learning and manual intervention, and comprehensively use strategies such as content deduplication and breaking intervention to enrich and expand the recommended content.": 1,
+        "We will share your personal information with third parties with your consent or when it is necessary for third parties to provide you with marketing activities or service content to ensure that the third party can provide you with smooth services or timely cash out rewards.": 1,
+        "When a penalty announcement is made for illegal accounts and violations, we will disclose information about the relevant accounts.": 1,
+        "When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.": 1,
+        "After your authorization and consent, we will collect your image information, send your image to the server, and then provide feedback based on your image.": 1,
+        "In order to protect your legitimate rights and interests from illegal infringement, our partners may use necessary equipment, accounts and log information.": 1,
+        "When you use applet services, in order to ensure the safe operation of the framework and better provide you with services, we will collect the operation records of your use applets such as login, browsing, using, subscribing, collecting, closing applets, etc.": 1,
+        "Academic research: In order to improve scientific research capabilities in related fields and promote the level of scientific and technological development, we may use de-identified or anonymous data with scientific research institutes, universities and other institutions on the premise of ensuring data security and legitimate purpose.": 1,
+        "This privacy policy is intended to help you understand what personal information we collect, why we collect it, what it does with it and how to protect it.": 1,
+        "For users of the same account system, in order to fulfill regulatory requirements, ensure account security, conduct consistent displays, and contact you, we may share your account information based on your effective authorization.": 1,
+        "We will investigate the data security environment of the companies, organizations and individuals with which we share personal information and sign strict confidentiality agreements with them, requiring them to take confidentiality and security measures to process personal information in accordance with the law.": 1,
+        "If you do not participate in related operational activities, you do not need to provide the above information.": 1,
+        "We also provide you with a traceless browsing mode.": 1,
+        "In order to jointly provide you with products/services or improve the quality and personalization of products and services, or for reasonable needs such as considering the safety of products and services, we may receive your personal information and other information from Baidu platform, affiliated companies, partners and other trusted third-party suppliers in accordance with the provisions of laws and regulations or based on your effective authorization.": 1,
+        "You agree to this Privacy Policy that you have understood and agreed that in order to realize the service, we will process your personal information in relevant functional scenarios, but we will not collect all your personal information in a package just because you authorize and agree to this Privacy Policy.": 1,
+        "When you share information or receive shared information or participate in activities, we will read passwords, links and other content in the clipboard to achieve jump and share information content.": 1,
+        "When you choose to actively copy and paste, we will read your clipboard, but we will not store other information about your clipboard.": 1,
+        "If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.": 1,
+        "In the corresponding function, if you provide other people's personal information, please make sure you have obtained it.": 1,
+        "If a third-party partner uses your information for purposes not entrusted by us, your consent will be obtained separately.": 1,
+        "We may also use the aforementioned information to bring you more convenient search and information flow services and continuously improve \"Baidu\" mobile application products and services.": 1,
+        "you follow or share an account, or browse, collect, follow, comment,When like and forwarding, we will collect the aforementioned information of you and display the content posted by the account of the corresponding content publisher, or recommend similar content or content publishers that you may be interested in, and gather and display your public interactive information to the content publisher.": 1,
+        "You actively choose a third party to share personal information with": 1,
+        "If you have questions about the products and services we provide or need customer service to intervene in dispute resolution, in order to verify your identity and locate your problems, you may need to provide your identity information for verification.": 1,
+        "Third-party payment institutions may obtain your de-identified device information to conduct transaction security verification, identification, and filter and intercept illegal and irregular situations such as wool grabbing and cheating.": 1,
+        "When we want to use the information for other purposes not stated in this Privacy Policy, our consent will be sought in advance.": 1,
+        "; Address management The pop-up window asks when the user uses geolocation-related business functions for the first time Yes": 1,
+        "At the same time, we will also actively report the handling of personal information security incidents in accordance with the requirements of the regulatory authorities.": 1,
+        "We will only share your personal information for legal, legitimate, necessary, specific and explicit purposes, and will only share the personal information necessary for the provision of the services.": 1,
+        "We will only provide you with the city and/or district information corresponding to the IP address or other network information and the rough location information estimated based on other network location information.": 1,
+        "After your authorization and consent, we will collect your voice information, send your voice commands to the server, and then provide feedback based on your voice commands.": 1,
+        "Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.": 8,
+        "When you use the \"Baidu\" mobile application, in order to ensure that you use the \"Baidu\" mobile application service normally, more accurately locate and solve the problems you encounter when using the \"Baidu\" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.": 1,
+        "When we want to use information collected for specific purposes for other purposes, our consent will be sought in advance.": 1,
+        "We provide you with device-based voice recognition functions and image recognition functions to provide you with voice search services and image search services.": 1,
+        "In this case, we will only share necessary personal information.": 1,
+        "If we or our affiliates are involved in transactions such as mergers, divisions, liquidation, acquisitions or sale of assets or businesses, your personal information may be transferred as part of such transactions.": 1,
+        "We will only access other application information and software list related information you installed when we judge user behavior or the device triggers risk control conditions.": 1,
+        "When you post text news, articles, audio and videos, pictures, etc., or activate live broadcasts or comments, we will collect information, feedback, comments, uploaded pictures, audio and videos, live broadcast content, etc.": 1,
+        "We will only disclose your personal information publicly if:": 1,
+        "After withdrawing the authorization, we will no longer collect information related to these permissions, but it will not affect our previous personal information processing based on your authorization.": 1,
+        "Regarding the specific details of how third-party services collect and use your personal information, it is recommended that you refer to the relevant service agreements and privacy policies of the third-party services.": 1,
+        "In addition, we may also provide you with commercial information such as services, functions or activities that may be of interest to you through text messages or phone calls.": 1,
+        "With your authorization and consent, we will highly encrypt the information in the address book and use it to recommend friends in the address book who can participate in the event.": 1,
+        "Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.": 1,
+        "After you withdraw your authorization, we will not be able to continue to provide you with the services corresponding to withdraw your consent, and will no longer use your corresponding personal information.": 1,
+        "In order to meet the mandatory requirements of laws and regulations such as the \"Anti-Telecom Network Fraud Law\" and \"Internet User Account Information Management Regulations\", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.": 1,
+        "HereIn such cases, we will transmit your personal information in accordance with the provisions of current Chinese laws and ensure that your personal information is protected by equal protection within the territory of the People's Republic of China.": 1
+    },
+    "negations": {
+        "We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:": [
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "When you choose to actively copy and paste, we will read your clipboard, but we will not store other information about your clipboard.": [
+            [
+                43,
+                44
+            ]
+        ],
+        "Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.": [
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                16,
+                17
+            ]
+        ],
+        "If you do not participate in related operational activities, you do not need to provide the above information.": [
+            [
+                49,
+                52
+            ]
+        ],
+        "You agree to this Privacy Policy that you have understood and agreed that in order to realize the service, we will process your personal information in relevant functional scenarios, but we will not collect all your personal information in a package just because you authorize and agree to this Privacy Policy.": [
+            [
+                56,
+                57
+            ]
+        ]
+    }
+}

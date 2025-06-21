@@ -1,0 +1,2180 @@
+(lp0
+(S'we'
+p1
+S'collect'
+p2
+S'personal information'
+p3
+S'This privacy policy is intended to help you understand what personal information we collect, why we collect it, what it does with it and how to protect it.'
+p4
+S'collect'
+p5
+tp6
+a(S'we'
+p7
+S'not_collect'
+p8
+S'personal information'
+p9
+S'You agree to this Privacy Policy that you have understood and agreed that in order to realize the service, we will process your personal information in relevant functional scenarios, but we will not collect all your personal information in a package just because you authorize and agree to this Privacy Policy.'
+p10
+S'collect'
+p11
+tp12
+a(S'we'
+p13
+S'collect'
+p14
+S'personal information'
+p15
+S'We will collect and use your personal information in accordance with the principles of lawfulness, legitimateness and necessity.'
+p16
+S'use'
+p17
+tp18
+a(S'we'
+p19
+S'collect'
+p20
+S'personal information'
+p21
+S'We will collect and use your personal information in accordance with the principles of lawfulness, legitimateness and necessity.'
+p22
+S'collect'
+p23
+tp24
+a(S'people'
+p25
+S'collect'
+p26
+S'personal information'
+p27
+S"In the corresponding function, if you provide other people's personal information, please make sure you have obtained it."
+p28
+S'provide'
+p29
+tp30
+a(S'we'
+p31
+S'collect'
+p32
+S'aforementioned information'
+p33
+S'We may also use the aforementioned information to bring you more convenient search and information flow services and continuously improve "Baidu" mobile application products and services.'
+p34
+S'use'
+p35
+tp36
+a(S'we'
+p37
+S'collect'
+p38
+S'traceless browsing mode'
+p39
+S'We also provide you with a traceless browsing mode.'
+p40
+S'provide'
+p41
+tp42
+a(S'we'
+p43
+S'collect'
+p44
+S'location information relate'
+p45
+S'When providing you with search, information flow, and weather services, in order to provide you with services that are more in line with your search/browsing needs (such as providing you with local/same city/city channel services, providing more accurate search results, and information flow recommendations), we will use location information related to this service.'
+p46
+S'use'
+p47
+tp48
+a(S'we'
+p49
+S'collect'
+p50
+S'rough location information'
+p51
+S'We will only provide you with the city and/or district information corresponding to the IP address or other network information and the rough location information estimated based on other network location information.'
+p52
+S'provide'
+p53
+tp54
+a(S'we'
+p55
+S'collect'
+p56
+S'city and/or district information'
+p57
+S'We will only provide you with the city and/or district information corresponding to the IP address or other network information and the rough location information estimated based on other network location information.'
+p58
+S'provide'
+p59
+tp60
+a(S'we'
+p61
+S'collect'
+p62
+S'device-base voice recognition function'
+p63
+S'We provide you with device-based voice recognition functions and image recognition functions to provide you with voice search services and image search services.'
+p64
+S'provide'
+p65
+tp66
+a(S'we'
+p67
+S'collect'
+p68
+S'image recognition function'
+p69
+S'We provide you with device-based voice recognition functions and image recognition functions to provide you with voice search services and image search services.'
+p70
+S'provide'
+p71
+tp72
+a(S'we'
+p73
+S'collect'
+p74
+S'your voice information'
+p75
+S'After your authorization and consent, we will collect your voice information, send your voice commands to the server, and then provide feedback based on your voice commands.'
+p76
+S'collect'
+p77
+tp78
+a(S'we'
+p79
+S'collect'
+p80
+S'your image information'
+p81
+S'After your authorization and consent, we will collect your image information, send your image to the server, and then provide feedback based on your image.'
+p82
+S'collect'
+p83
+tp84
+a(S'we_implicit'
+p85
+S'collect'
+p86
+S'name'
+p87
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p88
+S'provide'
+p89
+tp90
+a(S'we_implicit'
+p91
+S'collect'
+p92
+S'bank card information'
+p93
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p94
+S'provide'
+p95
+tp96
+a(S'we_implicit'
+p97
+S'collect'
+p98
+S'your real identity information'
+p99
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p100
+S'provide'
+p101
+tp102
+a(S'we_implicit'
+p103
+S'collect'
+p104
+S'facial information'
+p105
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p106
+S'provide'
+p107
+tp108
+a(S'we_implicit'
+p109
+S'collect'
+p110
+S'authenticity of user identity'
+p111
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p112
+S'provide'
+p113
+tp114
+a(S'we_implicit'
+p115
+S'collect'
+p116
+S'id number'
+p117
+S'In order to meet the mandatory requirements of laws and regulations such as the "Anti-Telecom Network Fraud Law" and "Internet User Account Information Management Regulations", as necessary to provide products or services, or based on your needs to enhance account protection level, and ensure the authenticity of user identity, when you use specific functional services (such as live broadcast, apply for cash withdrawal, activate business services, account password recovery, account appeal, security authentication, etc.), you must provide your real identity information (such as name, ID number, facial information, bank card information) to complete account real-name authentication.'
+p118
+S'provide'
+p119
+tp120
+a(S'we'
+p121
+S'collect'
+p122
+S'feedback'
+p123
+S'When you post text news, articles, audio and videos, pictures, etc., or activate live broadcasts or comments, we will collect information, feedback, comments, uploaded pictures, audio and videos, live broadcast content, etc.'
+p124
+S'collect'
+p125
+tp126
+a(S'we'
+p127
+S'collect'
+p128
+S'comment'
+p129
+S'When you post text news, articles, audio and videos, pictures, etc., or activate live broadcasts or comments, we will collect information, feedback, comments, uploaded pictures, audio and videos, live broadcast content, etc.'
+p130
+S'collect'
+p131
+tp132
+a(S'we'
+p133
+S'collect'
+p134
+S'information'
+p135
+S'When you post text news, articles, audio and videos, pictures, etc., or activate live broadcasts or comments, we will collect information, feedback, comments, uploaded pictures, audio and videos, live broadcast content, etc.'
+p136
+S'collect'
+p137
+tp138
+a(S'we'
+p139
+S'collect'
+p140
+S'content'
+p141
+S'you follow or share an account, or browse, collect, follow, comment,When like and forwarding, we will collect the aforementioned information of you and display the content posted by the account of the corresponding content publisher, or recommend similar content or content publishers that you may be interested in, and gather and display your public interactive information to the content publisher.'
+p142
+S'collect'
+p143
+tp144
+a(S'we'
+p145
+S'collect'
+p146
+S'aforementioned information of you'
+p147
+S'you follow or share an account, or browse, collect, follow, comment,When like and forwarding, we will collect the aforementioned information of you and display the content posted by the account of the corresponding content publisher, or recommend similar content or content publishers that you may be interested in, and gather and display your public interactive information to the content publisher.'
+p148
+S'collect'
+p149
+tp150
+a(S'we_implicit'
+p151
+S'collect'
+p152
+S'information'
+p153
+S'When you share information or receive shared information or participate in activities, we will read passwords, links and other content in the clipboard to achieve jump and share information content.'
+p154
+S'share'
+p155
+tp156
+a(S'we'
+p157
+S'collect'
+p158
+S'other information about your clipboard'
+p159
+S'When you choose to actively copy and paste, we will read your clipboard, but we will not store other information about your clipboard.'
+p160
+S'store'
+p161
+tp162
+a(S'we'
+p163
+S'collect'
+p164
+S'address'
+p165
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p166
+S'collect'
+p167
+tp168
+a(S'we'
+p169
+S'collect'
+p170
+S'transaction account'
+p171
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p172
+S'collect'
+p173
+tp174
+a(S'we'
+p175
+S'collect'
+p176
+S'operational activity interface'
+p177
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p178
+S'collect'
+p179
+tp180
+a(S'we'
+p181
+S'collect'
+p182
+S'information'
+p183
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p184
+S'collect'
+p185
+tp186
+a(S'we'
+p187
+S'collect'
+p188
+S'contact information'
+p189
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p190
+S'collect'
+p191
+tp192
+a(S'we'
+p193
+S'collect'
+p194
+S'your identity information'
+p195
+S'If you participate in related operational activities, we may collect information including but not limited to your identity information, contact information, address, and transaction account through the operational activity interface so that we can contact you, send you operational rewards, etc.'
+p196
+S'collect'
+p197
+tp198
+a(S'we_implicit'
+p199
+S'not_collect'
+p200
+S'above information'
+p201
+S'If you do not participate in related operational activities, you do not need to provide the above information.'
+p202
+S'provide'
+p203
+tp204
+a(S'we'
+p205
+S'collect'
+p206
+S'information in address book'
+p207
+S'With your authorization and consent, we will highly encrypt the information in the address book and use it to recommend friends in the address book who can participate in the event.'
+p208
+S'use'
+p209
+tp210
+a(S'we_implicit'
+p211
+S'collect'
+p212
+S'your identity information'
+p213
+S'If you have questions about the products and services we provide or need customer service to intervene in dispute resolution, in order to verify your identity and locate your problems, you may need to provide your identity information for verification.'
+p214
+S'provide'
+p215
+tp216
+a(S'we'
+p217
+S'collect'
+p218
+S'commercial information'
+p219
+S'In addition, we may also provide you with commercial information such as services, functions or activities that may be of interest to you through text messages or phone calls.'
+p220
+S'provide'
+p221
+tp222
+a(S'service'
+p223
+S'collect'
+p224
+S'commercial information'
+p225
+S'In addition, we may also provide you with commercial information such as services, functions or activities that may be of interest to you through text messages or phone calls.'
+p226
+S'provide'
+p227
+tp228
+a(S'we'
+p229
+S'collect'
+p230
+S'your location information'
+p231
+S'When you use the Message Notification Service, we may collect and use your location information in order to push more relevant message notifications to you.'
+p232
+S'collect'
+p233
+tp234
+a(S'we'
+p235
+S'collect'
+p236
+S'your location information'
+p237
+S'When you use the Message Notification Service, we may collect and use your location information in order to push more relevant message notifications to you.'
+p238
+S'use'
+p239
+tp240
+a(S'we'
+p241
+S'collect'
+p242
+S'your sensor information'
+p243
+S'When you use our products/services, we may collect your sensor information to adapt to the status of your device.'
+p244
+S'collect'
+p245
+tp246
+a(S'we'
+p247
+S'collect'
+p248
+S'your device status'
+p249
+S'When you use innovative advertising interaction functions (such as shake, twist, etc.), we will use the device acceleration sensor to identify and judge your device status and provide you with jump services.'
+p250
+S'use'
+p251
+tp252
+a(S'we'
+p253
+S'collect'
+p254
+S'device acceleration sensor to identify'
+p255
+S'When you use innovative advertising interaction functions (such as shake, twist, etc.), we will use the device acceleration sensor to identify and judge your device status and provide you with jump services.'
+p256
+S'use'
+p257
+tp258
+a(S'we'
+p259
+S'collect'
+p260
+S'android id'
+p261
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p262
+S'collect'
+p263
+tp264
+a(S'we'
+p265
+S'collect'
+p266
+S'base station'
+p267
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p268
+S'collect'
+p269
+tp270
+a(S'we'
+p271
+S'collect'
+p272
+S'device parameter'
+p273
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p274
+S'collect'
+p275
+tp276
+a(S'we'
+p277
+S'collect'
+p278
+S'other information relate to device operation'
+p279
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p280
+S'collect'
+p281
+tp282
+a(S'we'
+p283
+S'collect'
+p284
+S'hardware model'
+p285
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p286
+S'collect'
+p287
+tp288
+a(S'we'
+p289
+S'collect'
+p290
+S'software version number'
+p291
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p292
+S'collect'
+p293
+tp294
+a(S'we'
+p295
+S'collect'
+p296
+S'your device identifier'
+p297
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p298
+S'collect'
+p299
+tp300
+a(S'we'
+p301
+S'collect'
+p302
+S'system information'
+p303
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p304
+S'collect'
+p305
+tp306
+a(S'we'
+p307
+S'collect'
+p308
+S'wlan access point'
+p309
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p310
+S'collect'
+p311
+tp312
+a(S'we'
+p313
+S'collect'
+p314
+S'service log'
+p315
+S'When you use the "Baidu" mobile application, in order to ensure that you use the "Baidu" mobile application service normally, more accurately locate and solve the problems you encounter when using the "Baidu" mobile application service, analyze the stability of products and services, ensure the account security and property security of your and other users, prevent, discover, investigate fraud, cheating, endangering security, illegal or violate the agreements, policies or rules with us, and protect the legitimate rights and interests of you, us or our affiliates, partners and the public, we will collect your device identifiers (IDFA, IDFV, OAID, Android ID, GAID), hardware model, device parameters and system information, operating system version and system status, device configuration, browser type, telecom operator, language used, network access and status information, IP address, WLAN access point (such as SSID, BSSID), Bluetooth, base station, software version number, sensor, service log and other information related to device operation and login environment.'
+p316
+S'collect'
+p317
+tp318
+a(S'we'
+p319
+S'collect'
+p320
+S'other application information and software list relate information'
+p321
+S'We will only access other application information and software list related information you installed when we judge user behavior or the device triggers risk control conditions.'
+p322
+S'access'
+p323
+tp324
+a(S'we'
+p325
+S'collect'
+p326
+S'tag information'
+p327
+S'We will use tag information for specific scenarios and purposes to make automated decisions, and push personalized information and/or commercial marketing information to you.'
+p328
+S'use'
+p329
+tp330
+a(S'we'
+p331
+S'collect'
+p332
+S'content deduplication'
+p333
+S'We will continuously train and feedback the recommended model based on your usage behavior to adjust and optimize the recommendation results; in order to prevent homogeneous content concentration and meet your diverse needs, we continuously adjust the optimization model through machine learning and manual intervention, and comprehensively use strategies such as content deduplication and breaking intervention to enrich and expand the recommended content.'
+p334
+S'use'
+p335
+tp336
+a(S'we'
+p337
+S'collect'
+p338
+S'other information'
+p339
+S'In order to jointly provide you with products/services or improve the quality and personalization of products and services, or for reasonable needs such as considering the safety of products and services, we may receive your personal information and other information from Baidu platform, affiliated companies, partners and other trusted third-party suppliers in accordance with the provisions of laws and regulations or based on your effective authorization.'
+p340
+S'receive'
+p341
+tp342
+a(S'we'
+p343
+S'collect'
+p344
+S'personal information'
+p345
+S'In order to jointly provide you with products/services or improve the quality and personalization of products and services, or for reasonable needs such as considering the safety of products and services, we may receive your personal information and other information from Baidu platform, affiliated companies, partners and other trusted third-party suppliers in accordance with the provisions of laws and regulations or based on your effective authorization.'
+p346
+S'receive'
+p347
+tp348
+a(S'user'
+p349
+S'collect'
+p350
+S'geolocation-relate business function'
+p351
+S'; Address management The pop-up window asks when the user uses geolocation-related business functions for the first time Yes'
+p352
+S'use'
+p353
+tp354
+a(S'user'
+p355
+S'collect'
+p356
+S'picture / video'
+p357
+S'the user uploads or saves pictures/video for the first time, he asks Yes'
+p358
+S'save'
+p359
+tp360
+a(S'user'
+p361
+S'collect'
+p362
+S'first time'
+p363
+S'the user uploads or saves pictures/video for the first time, he asks Yes'
+p364
+S'save'
+p365
+tp366
+a(S'we'
+p367
+S'collect'
+p368
+S'information'
+p369
+S'When we want to use the information for other purposes not stated in this Privacy Policy, our consent will be sought in advance.'
+p370
+S'use'
+p371
+tp372
+a(S'we'
+p373
+S'collect'
+p374
+S'information'
+p375
+S'When we want to use information collected for specific purposes for other purposes, our consent will be sought in advance.'
+p376
+S'use'
+p377
+tp378
+a(S'we'
+p379
+S'collect'
+p380
+S'personal information'
+p381
+S'We will only share your personal information for legal, legitimate, necessary, specific and explicit purposes, and will only share the personal information necessary for the provision of the services.'
+p382
+S'share'
+p383
+tp384
+a(S'third_party_implicit'
+p385
+S'collect'
+p386
+S'personal information'
+p387
+S'We will only share your personal information for legal, legitimate, necessary, specific and explicit purposes, and will only share the personal information necessary for the provision of the services.'
+p388
+S'share'
+p389
+tp390
+a(S'third party'
+p391
+S'collect'
+p392
+S'personal information'
+p393
+S'Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.'
+p394
+S'share'
+p395
+tp396
+a(S'we'
+p397
+S'collect'
+p398
+S'personal information'
+p399
+S'Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.'
+p400
+S'share'
+p401
+tp402
+a(S'baidu'
+p403
+S'collect'
+p404
+S'personal information'
+p405
+S'Unless otherwise agreed by you in advance or comply with other laws and regulations, we will not share your personal information with third parties other than Baidu, except when processing cannot identify a specific individual and cannot be restored.'
+p406
+S'share'
+p407
+tp408
+a(S'third_party_implicit'
+p409
+S'collect'
+p410
+S'personal information'
+p411
+S'We will investigate the data security environment of the companies, organizations and individuals with which we share personal information and sign strict confidentiality agreements with them, requiring them to take confidentiality and security measures to process personal information in accordance with the law.'
+p412
+S'share'
+p413
+tp414
+a(S'we'
+p415
+S'collect'
+p416
+S'personal information'
+p417
+S'We will investigate the data security environment of the companies, organizations and individuals with which we share personal information and sign strict confidentiality agreements with them, requiring them to take confidentiality and security measures to process personal information in accordance with the law.'
+p418
+S'share'
+p419
+tp420
+a(S'we'
+p421
+S'collect'
+p422
+S'personal information'
+p423
+S'We will provide your personal information to third parties providing you with your service based on your valid authorization or as necessary to enter into and perform a contract with an individual as a party.'
+p424
+S'provide'
+p425
+tp426
+a(S'third party'
+p427
+S'collect'
+p428
+S'personal information'
+p429
+S'We will provide your personal information to third parties providing you with your service based on your valid authorization or as necessary to enter into and perform a contract with an individual as a party.'
+p430
+S'provide'
+p431
+tp432
+a(S'third-party service'
+p433
+S'collect'
+p434
+S'personal information'
+p435
+S'Regarding the specific details of how third-party services collect and use your personal information, it is recommended that you refer to the relevant service agreements and privacy policies of the third-party services.'
+p436
+S'use'
+p437
+tp438
+a(S'third-party service'
+p439
+S'collect'
+p440
+S'personal information'
+p441
+S'Regarding the specific details of how third-party services collect and use your personal information, it is recommended that you refer to the relevant service agreements and privacy policies of the third-party services.'
+p442
+S'collect'
+p443
+tp444
+a(S'third party'
+p445
+S'collect'
+p446
+S'your invoice information'
+p447
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p448
+S'obtain'
+p449
+tp450
+a(S'mobile application'
+p451
+S'collect'
+p452
+S'contact information'
+p453
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p454
+S'provide'
+p455
+tp456
+a(S'third party'
+p457
+S'collect'
+p458
+S'delivery address'
+p459
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p460
+S'obtain'
+p461
+tp462
+a(S'mobile application'
+p463
+S'collect'
+p464
+S'address information'
+p465
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p466
+S'provide'
+p467
+tp468
+a(S'third party'
+p469
+S'collect'
+p470
+S'invoice information'
+p471
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p472
+S'provide'
+p473
+tp474
+a(S'we'
+p475
+S'collect'
+p476
+S'" shipping address " function'
+p477
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p478
+S'provide'
+p479
+tp480
+a(S'baidu'
+p481
+S'collect'
+p482
+S'" shipping address " function'
+p483
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p484
+S'provide'
+p485
+tp486
+a(S'baidu'
+p487
+S'collect'
+p488
+S'contact information'
+p489
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p490
+S'provide'
+p491
+tp492
+a(S'we'
+p493
+S'collect'
+p494
+S'invoice information'
+p495
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p496
+S'provide'
+p497
+tp498
+a(S'third party'
+p499
+S'collect'
+p500
+S'" shipping address " function'
+p501
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p502
+S'provide'
+p503
+tp504
+a(S'third party'
+p505
+S'collect'
+p506
+S'contact information'
+p507
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p508
+S'provide'
+p509
+tp510
+a(S'third party'
+p511
+S'collect'
+p512
+S'your contact information'
+p513
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p514
+S'obtain'
+p515
+tp516
+a(S'third party'
+p517
+S'collect'
+p518
+S'address information'
+p519
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p520
+S'provide'
+p521
+tp522
+a(S'mobile application'
+p523
+S'collect'
+p524
+S'" shipping address " function'
+p525
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p526
+S'provide'
+p527
+tp528
+a(S'we'
+p529
+S'collect'
+p530
+S'contact information'
+p531
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p532
+S'provide'
+p533
+tp534
+a(S'baidu'
+p535
+S'collect'
+p536
+S'address information'
+p537
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p538
+S'provide'
+p539
+tp540
+a(S'we'
+p541
+S'collect'
+p542
+S'address information'
+p543
+S'When you make transactions with a third party in the "Baidu" mobile application and the third party obtains your contact information and delivery address is necessary to provide product services, we will provide the address information you fill in in the "Shipping Address" function and the contact information you provide to the third party that provides you with products or services; when the third party obtains your invoice information as necessary to provide product services, we will provide the invoice information you fill in in invoice management function to the third party that provides you with products or services.'
+p544
+S'provide'
+p545
+tp546
+a(S'we_implicit'
+p547
+S'collect'
+p548
+S'avatar'
+p549
+S'When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.'
+p550
+S'provide'
+p551
+tp552
+a(S'we_implicit'
+p553
+S'collect'
+p554
+S'other information'
+p555
+S'When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.'
+p556
+S'provide'
+p557
+tp558
+a(S'we_implicit'
+p559
+S'collect'
+p560
+S'contact information'
+p561
+S'When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.'
+p562
+S'provide'
+p563
+tp564
+a(S'we_implicit'
+p565
+S'collect'
+p566
+S'your account nickname'
+p567
+S'When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.'
+p568
+S'provide'
+p569
+tp570
+a(S'we_implicit'
+p571
+S'collect'
+p572
+S'name'
+p573
+S'When you participate in marketing activities or services provided by third parties or provided by us in cooperation, you may need to provide your account nickname, avatar, name, contact information and other information based on the service requirements.'
+p574
+S'provide'
+p575
+tp576
+a(S'third party'
+p577
+S'collect'
+p578
+S'personal information'
+p579
+S'We will share your personal information with third parties with your consent or when it is necessary for third parties to provide you with marketing activities or service content to ensure that the third party can provide you with smooth services or timely cash out rewards.'
+p580
+S'share'
+p581
+tp582
+a(S'we'
+p583
+S'collect'
+p584
+S'personal information'
+p585
+S'We will share your personal information with third parties with your consent or when it is necessary for third parties to provide you with marketing activities or service content to ensure that the third party can provide you with smooth services or timely cash out rewards.'
+p586
+S'share'
+p587
+tp588
+a(S'we'
+p589
+S'collect'
+p590
+S'de-identify equipment information'
+p591
+S'We may share de-identified equipment information with partners to facilitate partners to conduct equipment security verification, identification, filter and intercept cheating and other illegal and irregular situations.'
+p592
+S'share'
+p593
+tp594
+a(S'partner'
+p595
+S'collect'
+p596
+S'de-identify equipment information'
+p597
+S'We may share de-identified equipment information with partners to facilitate partners to conduct equipment security verification, identification, filter and intercept cheating and other illegal and irregular situations.'
+p598
+S'share'
+p599
+tp600
+a(S'third-party payment agency'
+p601
+S'collect'
+p602
+S'mobile phone number'
+p603
+S'When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.'
+p604
+S'collect'
+p605
+tp606
+a(S'third-party payment agency'
+p607
+S'collect'
+p608
+S'id number'
+p609
+S'When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.'
+p610
+S'collect'
+p611
+tp612
+a(S'third-party payment agency'
+p613
+S'collect'
+p614
+S'device information'
+p615
+S'When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.'
+p616
+S'collect'
+p617
+tp618
+a(S'third-party payment agency'
+p619
+S'collect'
+p620
+S'your name'
+p621
+S'When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.'
+p622
+S'collect'
+p623
+tp624
+a(S'third-party payment agency'
+p625
+S'collect'
+p626
+S'bank card information'
+p627
+S'When you use the payment service of a third-party payment agency at the cashier, in order to provide you with payment services and ensure payment security, third-party payment agencies may need to collect your name, ID number, bank card information, validity period, mobile phone number, and device information.'
+p628
+S'collect'
+p629
+tp630
+a(S'third-party payment institution'
+p631
+S'collect'
+p632
+S'de-identify device information'
+p633
+S'Third-party payment institutions may obtain your de-identified device information to conduct transaction security verification, identification, and filter and intercept illegal and irregular situations such as wool grabbing and cheating.'
+p634
+S'obtain'
+p635
+tp636
+a(S'third-party applet'
+p637
+S'collect'
+p638
+S'your device'
+p639
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p640
+S'collect'
+p641
+tp642
+a(S'third-party applet'
+p643
+S'collect'
+p644
+S'your device'
+p645
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p646
+S'use'
+p647
+tp648
+a(S'third-party applet'
+p649
+S'collect'
+p650
+S'relevant information'
+p651
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p652
+S'use'
+p653
+tp654
+a(S'third-party applet'
+p655
+S'collect'
+p656
+S'permission'
+p657
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p658
+S'use'
+p659
+tp660
+a(S'third-party applet'
+p661
+S'collect'
+p662
+S'relevant information'
+p663
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p664
+S'collect'
+p665
+tp666
+a(S'third-party applet'
+p667
+S'collect'
+p668
+S'permission'
+p669
+S'Third-party applets may collect and use your relevant information and call your device permissions so that you can use the services it provides.'
+p670
+S'collect'
+p671
+tp672
+a(S'third-party applet service provider'
+p673
+S'collect'
+p674
+S'your information'
+p675
+S'When you choose to use third-party applet services, with your authorization and consent, we will provide your information to the third-party applet service provider in accordance with your authorization so that it can provide you with services based on relevant information.'
+p676
+S'provide'
+p677
+tp678
+a(S'we'
+p679
+S'collect'
+p680
+S'your information'
+p681
+S'When you choose to use third-party applet services, with your authorization and consent, we will provide your information to the third-party applet service provider in accordance with your authorization so that it can provide you with services based on relevant information.'
+p682
+S'provide'
+p683
+tp684
+a(S'we'
+p685
+S'collect'
+p686
+S'operation record'
+p687
+S'When you use applet services, in order to ensure the safe operation of the framework and better provide you with services, we will collect the operation records of your use applets such as login, browsing, using, subscribing, collecting, closing applets, etc.'
+p688
+S'collect'
+p689
+tp690
+a(S'same account system'
+p691
+S'collect'
+p692
+S'personal information'
+p693
+S'In order to jointly provide you with services, improve the security and convenience of your use of products, and ensure consistent service experience, we will share your personal information between affiliated companies or users of the same account system under the premise of complying with legal requirements.'
+p694
+S'share'
+p695
+tp696
+a(S'affiliated company'
+p697
+S'collect'
+p698
+S'personal information'
+p699
+S'In order to jointly provide you with services, improve the security and convenience of your use of products, and ensure consistent service experience, we will share your personal information between affiliated companies or users of the same account system under the premise of complying with legal requirements.'
+p700
+S'share'
+p701
+tp702
+a(S'user'
+p703
+S'collect'
+p704
+S'personal information'
+p705
+S'In order to jointly provide you with services, improve the security and convenience of your use of products, and ensure consistent service experience, we will share your personal information between affiliated companies or users of the same account system under the premise of complying with legal requirements.'
+p706
+S'share'
+p707
+tp708
+a(S'we'
+p709
+S'collect'
+p710
+S'personal information'
+p711
+S'In order to jointly provide you with services, improve the security and convenience of your use of products, and ensure consistent service experience, we will share your personal information between affiliated companies or users of the same account system under the premise of complying with legal requirements.'
+p712
+S'share'
+p713
+tp714
+a(S'third_party_implicit'
+p715
+S'collect'
+p716
+S'personal information'
+p717
+S'In this case, we will only share necessary personal information.'
+p718
+S'share'
+p719
+tp720
+a(S'we'
+p721
+S'collect'
+p722
+S'personal information'
+p723
+S'In this case, we will only share necessary personal information.'
+p724
+S'share'
+p725
+tp726
+a(S'third_party_implicit'
+p727
+S'collect'
+p728
+S'sensitive personal information'
+p729
+S'If we share your sensitive personal information or the recipient changes the purpose of the use and processing of personal information, you will seek your authorization and consent again.'
+p730
+S'share'
+p731
+tp732
+a(S'we'
+p733
+S'collect'
+p734
+S'sensitive personal information'
+p735
+S'If we share your sensitive personal information or the recipient changes the purpose of the use and processing of personal information, you will seek your authorization and consent again.'
+p736
+S'share'
+p737
+tp738
+a(S'third_party_implicit'
+p739
+S'collect'
+p740
+S'your account information'
+p741
+S'For users of the same account system, in order to fulfill regulatory requirements, ensure account security, conduct consistent displays, and contact you, we may share your account information based on your effective authorization.'
+p742
+S'share'
+p743
+tp744
+a(S'we'
+p745
+S'collect'
+p746
+S'your account information'
+p747
+S'For users of the same account system, in order to fulfill regulatory requirements, ensure account security, conduct consistent displays, and contact you, we may share your account information based on your effective authorization.'
+p748
+S'share'
+p749
+tp750
+a(S'third_party_implicit'
+p751
+S'collect'
+p752
+S'follower number'
+p753
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p754
+S'share'
+p755
+tp756
+a(S'we'
+p757
+S'collect'
+p758
+S'comment information'
+p759
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p760
+S'share'
+p761
+tp762
+a(S'third_party_implicit'
+p763
+S'collect'
+p764
+S'comment information'
+p765
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p766
+S'share'
+p767
+tp768
+a(S'third_party_implicit'
+p769
+S'collect'
+p770
+S'avatar'
+p771
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p772
+S'share'
+p773
+tp774
+a(S'we'
+p775
+S'collect'
+p776
+S'your username'
+p777
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p778
+S'share'
+p779
+tp780
+a(S'third_party_implicit'
+p781
+S'collect'
+p782
+S'nickname'
+p783
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p784
+S'share'
+p785
+tp786
+a(S'we'
+p787
+S'collect'
+p788
+S'avatar'
+p789
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p790
+S'share'
+p791
+tp792
+a(S'third_party_implicit'
+p793
+S'collect'
+p794
+S'your username'
+p795
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p796
+S'share'
+p797
+tp798
+a(S'we'
+p799
+S'collect'
+p800
+S'nickname'
+p801
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p802
+S'share'
+p803
+tp804
+a(S'third_party_implicit'
+p805
+S'collect'
+p806
+S'number of fan'
+p807
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p808
+S'share'
+p809
+tp810
+a(S'we'
+p811
+S'collect'
+p812
+S'follower number'
+p813
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p814
+S'share'
+p815
+tp816
+a(S'we'
+p817
+S'collect'
+p818
+S'number of fan'
+p819
+S'For example: When you use YY live service through your Baidu account, we will share your username, nickname, avatar, follower number, number of fans, comment information, bound mobile phone number, whether you are an adult, account binding name and ID number (only support query when protecting user rights or fulfilling legal obligations).'
+p820
+S'share'
+p821
+tp822
+a(S'service provider'
+p823
+S'collect'
+p824
+S'id number'
+p825
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p826
+S'share'
+p827
+tp828
+a(S'service provider'
+p829
+S'collect'
+p830
+S'avatar'
+p831
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p832
+S'share'
+p833
+tp834
+a(S'we'
+p835
+S'collect'
+p836
+S'ip information'
+p837
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p838
+S'share'
+p839
+tp840
+a(S'service provider'
+p841
+S'collect'
+p842
+S'mobile phone number'
+p843
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p844
+S'share'
+p845
+tp846
+a(S'we'
+p847
+S'collect'
+p848
+S'avatar'
+p849
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p850
+S'share'
+p851
+tp852
+a(S'service provider'
+p853
+S'collect'
+p854
+S'bind real-name information'
+p855
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p856
+S'share'
+p857
+tp858
+a(S'we'
+p859
+S'collect'
+p860
+S'id number'
+p861
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p862
+S'share'
+p863
+tp864
+a(S'we'
+p865
+S'collect'
+p866
+S'your account username'
+p867
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p868
+S'share'
+p869
+tp870
+a(S'service provider'
+p871
+S'collect'
+p872
+S'ip information'
+p873
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p874
+S'share'
+p875
+tp876
+a(S'we'
+p877
+S'collect'
+p878
+S'bind real-name information'
+p879
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p880
+S'share'
+p881
+tp882
+a(S'service provider'
+p883
+S'collect'
+p884
+S'your account username'
+p885
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p886
+S'share'
+p887
+tp888
+a(S'service provider'
+p889
+S'collect'
+p890
+S'name'
+p891
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p892
+S'share'
+p893
+tp894
+a(S'we'
+p895
+S'collect'
+p896
+S'mobile phone number'
+p897
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p898
+S'share'
+p899
+tp900
+a(S'we'
+p901
+S'collect'
+p902
+S'name'
+p903
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p904
+S'share'
+p905
+tp906
+a(S'service provider'
+p907
+S'collect'
+p908
+S'nickname'
+p909
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p910
+S'share'
+p911
+tp912
+a(S'we'
+p913
+S'collect'
+p914
+S'nickname'
+p915
+S'When you use Du Xiaoman Finance, Youqianhua, and Du Xiaoman Financial Management Services through your Baidu account, we will share your account username, nickname, avatar, binding real-name information (such as name, ID number and mobile phone number), account risk situation (including login), and IP information with the service provider (Chongqing Du Xiaoman Information Technology Co., Ltd.).'
+p916
+S'share'
+p917
+tp918
+a(S'third party'
+p919
+S'collect'
+p920
+S'personal information'
+p921
+S'You actively choose a third party to share personal information with'
+p922
+S'share'
+p923
+tp924
+a(S'third_party_implicit'
+p925
+S'collect'
+p926
+S'personal information'
+p927
+S'You actively choose a third party to share personal information with'
+p928
+S'share'
+p929
+tp930
+a(S'we'
+p931
+S'collect'
+p932
+S'anonymization'
+p933
+S'We promise to use technical measures of de-identification, anonymization or encryption algorithms to process data and adopt encrypted transmission methods to ensure data security.'
+p934
+S'use'
+p935
+tp936
+a(S'we'
+p937
+S'collect'
+p938
+S'encryption algorithm'
+p939
+S'We promise to use technical measures of de-identification, anonymization or encryption algorithms to process data and adopt encrypted transmission methods to ensure data security.'
+p940
+S'use'
+p941
+tp942
+a(S'we'
+p943
+S'collect'
+p944
+S'technical measure of de-identification'
+p945
+S'We promise to use technical measures of de-identification, anonymization or encryption algorithms to process data and adopt encrypted transmission methods to ensure data security.'
+p946
+S'use'
+p947
+tp948
+a(S'partner'
+p949
+S'collect'
+p950
+S'contact information'
+p951
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p952
+S'provide'
+p953
+tp954
+a(S'we'
+p955
+S'collect'
+p956
+S'advertiser and/or'
+p957
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p958
+S'provide'
+p959
+tp960
+a(S'we'
+p961
+S'collect'
+p962
+S'address'
+p963
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p964
+S'provide'
+p965
+tp966
+a(S'partner'
+p967
+S'collect'
+p968
+S'advertiser and/or'
+p969
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p970
+S'provide'
+p971
+tp972
+a(S'its entrust agent'
+p973
+S'collect'
+p974
+S'address'
+p975
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p976
+S'provide'
+p977
+tp978
+a(S'we'
+p979
+S'collect'
+p980
+S'relevant information'
+p981
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p982
+S'provide'
+p983
+tp984
+a(S'we'
+p985
+S'collect'
+p986
+S'name'
+p987
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p988
+S'provide'
+p989
+tp990
+a(S'its entrust agent'
+p991
+S'collect'
+p992
+S'contact information'
+p993
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p994
+S'provide'
+p995
+tp996
+a(S'partner'
+p997
+S'collect'
+p998
+S'name'
+p999
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1000
+S'provide'
+p1001
+tp1002
+a(S'its entrust agent'
+p1003
+S'collect'
+p1004
+S'relevant information'
+p1005
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1006
+S'provide'
+p1007
+tp1008
+a(S'its entrust agent'
+p1009
+S'collect'
+p1010
+S'advertiser and/or'
+p1011
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1012
+S'provide'
+p1013
+tp1014
+a(S'partner'
+p1015
+S'collect'
+p1016
+S'address'
+p1017
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1018
+S'provide'
+p1019
+tp1020
+a(S'its entrust agent'
+p1021
+S'collect'
+p1022
+S'name'
+p1023
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1024
+S'provide'
+p1025
+tp1026
+a(S'we'
+p1027
+S'collect'
+p1028
+S'contact information'
+p1029
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1030
+S'provide'
+p1031
+tp1032
+a(S'partner'
+p1033
+S'collect'
+p1034
+S'relevant information'
+p1035
+S'When you actively fill out or submit the form on the ad landing page, we will provide the relevant information (such as name, contact information, address) you actively fill out or submit to the advertiser and/or its entrusted agents and partners so that they can provide you with further services.'
+p1036
+S'provide'
+p1037
+tp1038
+a(S'our partner'
+p1039
+S'collect'
+p1040
+S'log information'
+p1041
+S'In order to protect your legitimate rights and interests from illegal infringement, our partners may use necessary equipment, accounts and log information.'
+p1042
+S'use'
+p1043
+tp1044
+a(S'our partner'
+p1045
+S'collect'
+p1046
+S'necessary equipment'
+p1047
+S'In order to protect your legitimate rights and interests from illegal infringement, our partners may use necessary equipment, accounts and log information.'
+p1048
+S'use'
+p1049
+tp1050
+a(S'our partner'
+p1051
+S'collect'
+p1052
+S'account and'
+p1053
+S'In order to protect your legitimate rights and interests from illegal infringement, our partners may use necessary equipment, accounts and log information.'
+p1054
+S'use'
+p1055
+tp1056
+a(S'we'
+p1057
+S'collect'
+p1058
+S'de-identify'
+p1059
+S'Academic research: In order to improve scientific research capabilities in related fields and promote the level of scientific and technological development, we may use de-identified or anonymous data with scientific research institutes, universities and other institutions on the premise of ensuring data security and legitimate purpose.'
+p1060
+S'use'
+p1061
+tp1062
+a(S'we'
+p1063
+S'collect'
+p1064
+S'anonymous datum'
+p1065
+S'Academic research: In order to improve scientific research capabilities in related fields and promote the level of scientific and technological development, we may use de-identified or anonymous data with scientific research institutes, universities and other institutions on the premise of ensuring data security and legitimate purpose.'
+p1066
+S'use'
+p1067
+tp1068
+a(S'third-party partner'
+p1069
+S'collect'
+p1070
+S'your information'
+p1071
+S'If a third-party partner uses your information for purposes not entrusted by us, your consent will be obtained separately.'
+p1072
+S'use'
+p1073
+tp1074
+a(S'we'
+p1075
+S'collect'
+p1076
+S'personal information'
+p1077
+S'We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:'
+p1078
+S'transfer'
+p1079
+tp1080
+a(S'company'
+p1081
+S'collect'
+p1082
+S'personal information'
+p1083
+S'We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:'
+p1084
+S'transfer'
+p1085
+tp1086
+a(S'individual'
+p1087
+S'collect'
+p1088
+S'personal information'
+p1089
+S'We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:'
+p1090
+S'transfer'
+p1091
+tp1092
+a(S'baidu'
+p1093
+S'collect'
+p1094
+S'personal information'
+p1095
+S'We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:'
+p1096
+S'transfer'
+p1097
+tp1098
+a(S'organization'
+p1099
+S'collect'
+p1100
+S'personal information'
+p1101
+S'We will not transfer your personal information to any company, organization or individual other than Baidu, except for the following circumstances:'
+p1102
+S'transfer'
+p1103
+tp1104
+a(S'we_implicit'
+p1105
+S'collect'
+p1106
+S'personal information'
+p1107
+S'If we or our affiliates are involved in transactions such as mergers, divisions, liquidation, acquisitions or sale of assets or businesses, your personal information may be transferred as part of such transactions.'
+p1108
+S'transfer'
+p1109
+tp1110
+a(S'third_party_implicit'
+p1111
+S'collect'
+p1112
+S'personal information'
+p1113
+S'If we or our affiliates are involved in transactions such as mergers, divisions, liquidation, acquisitions or sale of assets or businesses, your personal information may be transferred as part of such transactions.'
+p1114
+S'transfer'
+p1115
+tp1116
+a(S'third_party_implicit'
+p1117
+S'collect'
+p1118
+S'personal information'
+p1119
+S'We will only disclose your personal information publicly if:'
+p1120
+S'disclose'
+p1121
+tp1122
+a(S'we'
+p1123
+S'collect'
+p1124
+S'personal information'
+p1125
+S'We will only disclose your personal information publicly if:'
+p1126
+S'disclose'
+p1127
+tp1128
+a(S'we'
+p1129
+S'collect'
+p1130
+S'information about relevant'
+p1131
+S'When a penalty announcement is made for illegal accounts and violations, we will disclose information about the relevant accounts.'
+p1132
+S'disclose'
+p1133
+tp1134
+a(S'third_party_implicit'
+p1135
+S'collect'
+p1136
+S'information about relevant'
+p1137
+S'When a penalty announcement is made for illegal accounts and violations, we will disclose information about the relevant accounts.'
+p1138
+S'disclose'
+p1139
+tp1140
+a(S'we'
+p1141
+S'collect'
+p1142
+S'personal information'
+p1143
+S"HereIn such cases, we will transmit your personal information in accordance with the provisions of current Chinese laws and ensure that your personal information is protected by equal protection within the territory of the People's Republic of China."
+p1144
+S'transmit'
+p1145
+tp1146
+a(S'third_party_implicit'
+p1147
+S'collect'
+p1148
+S'personal information'
+p1149
+S"HereIn such cases, we will transmit your personal information in accordance with the provisions of current Chinese laws and ensure that your personal information is protected by equal protection within the territory of the People's Republic of China."
+p1150
+S'transmit'
+p1151
+tp1152
+a(S'only authorize personnel'
+p1153
+S'collect'
+p1154
+S'personal information'
+p1155
+S'We will authenticate and control the identity of employees who process personal information, and will sign confidentiality agreements with employees and partners who are in contact with your personal information, clarify job responsibilities and code of conduct, and ensure that only authorized personnel can access personal information.'
+p1156
+S'access'
+p1157
+tp1158
+a(S'we'
+p1159
+S'collect'
+p1160
+S'handling of personal information security incident'
+p1161
+S'At the same time, we will also actively report the handling of personal information security incidents in accordance with the requirements of the regulatory authorities.'
+p1162
+S'report'
+p1163
+tp1164
+a(S'third_party_implicit'
+p1165
+S'collect'
+p1166
+S'handling of personal information security incident'
+p1167
+S'At the same time, we will also actively report the handling of personal information security incidents in accordance with the requirements of the regulatory authorities.'
+p1168
+S'report'
+p1169
+tp1170
+a(S'we'
+p1171
+S'collect'
+p1172
+S'information relate to permission'
+p1173
+S'After withdrawing the authorization, we will no longer collect information related to these permissions, but it will not affect our previous personal information processing based on your authorization.'
+p1174
+S'collect'
+p1175
+tp1176
+a(S'we'
+p1177
+S'collect'
+p1178
+S'personal information'
+p1179
+S'After you withdraw your authorization, we will not be able to continue to provide you with the services corresponding to withdraw your consent, and will no longer use your corresponding personal information.'
+p1180
+S'use'
+p1181
+tp1182
+a(S'we'
+p1183
+S'collect'
+p1184
+S'personal information'
+p1185
+S'If at any time the guardian has reason to believe that we have collected personal information of minors without the guardian\'s consent, please contact us through [My]-[Settings]-[Help and Feedback] in the "Baidu" mobile application, and we will take measures to delete the relevant data as soon as possible.'
+p1186
+S'collect'
+p1187
+tp1188
+a.

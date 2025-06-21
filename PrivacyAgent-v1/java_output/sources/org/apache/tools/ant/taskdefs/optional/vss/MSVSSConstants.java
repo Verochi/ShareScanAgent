@@ -1,0 +1,53 @@
+package org.apache.tools.ant.taskdefs.optional.vss;
+
+/* loaded from: classes25.dex */
+public interface MSVSSConstants {
+    public static final java.lang.String COMMAND_ADD = "Add";
+    public static final java.lang.String COMMAND_CHECKIN = "Checkin";
+    public static final java.lang.String COMMAND_CHECKOUT = "Checkout";
+    public static final java.lang.String COMMAND_CP = "CP";
+    public static final java.lang.String COMMAND_CREATE = "Create";
+    public static final java.lang.String COMMAND_GET = "Get";
+    public static final java.lang.String COMMAND_HISTORY = "History";
+    public static final java.lang.String COMMAND_LABEL = "Label";
+    public static final java.lang.String FLAG_AUTORESPONSE_DEF = "-I-";
+    public static final java.lang.String FLAG_AUTORESPONSE_NO = "-I-N";
+    public static final java.lang.String FLAG_AUTORESPONSE_YES = "-I-Y";
+    public static final java.lang.String FLAG_BRIEF = "-B";
+    public static final java.lang.String FLAG_CODEDIFF = "-D";
+    public static final java.lang.String FLAG_COMMENT = "-C";
+    public static final java.lang.String FLAG_FILETIME_DEF = "-GTC";
+    public static final java.lang.String FLAG_FILETIME_MODIFIED = "-GTM";
+    public static final java.lang.String FLAG_FILETIME_UPDATED = "-GTU";
+    public static final java.lang.String FLAG_LABEL = "-L";
+    public static final java.lang.String FLAG_LOGIN = "-Y";
+    public static final java.lang.String FLAG_NO_FILE = "-F-";
+    public static final java.lang.String FLAG_NO_GET = "-G-";
+    public static final java.lang.String FLAG_OUTPUT = "-O";
+    public static final java.lang.String FLAG_OVERRIDE_WORKING_DIR = "-GL";
+    public static final java.lang.String FLAG_QUIET = "-O-";
+    public static final java.lang.String FLAG_RECURSION = "-R";
+    public static final java.lang.String FLAG_REPLACE_WRITABLE = "-GWR";
+    public static final java.lang.String FLAG_SKIP_WRITABLE = "-GWS";
+    public static final java.lang.String FLAG_USER = "-U";
+    public static final java.lang.String FLAG_VERSION = "-V";
+    public static final java.lang.String FLAG_VERSION_DATE = "-Vd";
+    public static final java.lang.String FLAG_VERSION_LABEL = "-VL";
+    public static final java.lang.String FLAG_WRITABLE = "-W";
+    public static final java.lang.String PROJECT_PREFIX = "$";
+    public static final java.lang.String SS_EXE = "ss";
+    public static final java.lang.String STYLE_BRIEF = "brief";
+    public static final java.lang.String STYLE_CODEDIFF = "codediff";
+    public static final java.lang.String STYLE_DEFAULT = "default";
+    public static final java.lang.String STYLE_NOFILE = "nofile";
+    public static final java.lang.String TIME_CURRENT = "current";
+    public static final java.lang.String TIME_MODIFIED = "modified";
+    public static final java.lang.String TIME_UPDATED = "updated";
+    public static final java.lang.String VALUE_FROMDATE = "~d";
+    public static final java.lang.String VALUE_FROMLABEL = "~L";
+    public static final java.lang.String VALUE_NO = "-N";
+    public static final java.lang.String VALUE_YES = "-Y";
+    public static final java.lang.String WRITABLE_FAIL = "fail";
+    public static final java.lang.String WRITABLE_REPLACE = "replace";
+    public static final java.lang.String WRITABLE_SKIP = "skip";
+}

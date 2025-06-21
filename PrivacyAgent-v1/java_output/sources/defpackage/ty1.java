@@ -1,0 +1,9 @@
+package defpackage;
+
+/* loaded from: classes7.dex */
+public final /* synthetic */ class ty1 implements android.view.View.OnClickListener {
+    @Override // android.view.View.OnClickListener
+    public final void onClick(android.view.View view) {
+        com.moji.mjweather.me.activity.PermissionGuideActivity.h(view);
+    }
+}

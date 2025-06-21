@@ -1,0 +1,85 @@
+package com.jd.ad.sdk.jad_lu;
+
+/* loaded from: classes23.dex */
+public interface jad_re {
+    public static final java.lang.Float jad_cn;
+    public static final java.lang.Float jad_do;
+    public static final java.lang.Float jad_ep;
+    public static final java.lang.Float jad_fq;
+    public static final java.lang.Float jad_gr;
+    public static final java.lang.Float jad_hs;
+    public static final java.lang.Float jad_hu;
+    public static final java.lang.Float jad_it;
+    public static final java.lang.Float jad_iv;
+    public static final java.lang.Float jad_ju;
+    public static final java.lang.Float jad_jw;
+    public static final java.lang.Float jad_kv;
+    public static final android.graphics.PointF jad_kx;
+    public static final java.lang.Float jad_lw;
+    public static final android.graphics.PointF jad_ly;
+    public static final android.graphics.ColorFilter jad_mx;
+    public static final java.lang.Float jad_mz;
+    public static final android.graphics.PointF jad_na;
+    public static final java.lang.Integer[] jad_ny;
+    public static final com.jd.ad.sdk.jad_yh.jad_dq jad_ob;
+    public static final android.graphics.Typeface jad_oz;
+    public static final android.graphics.Bitmap jad_pa;
+    public static final java.lang.Float jad_pc;
+    public static final java.lang.Float jad_qd;
+    public static final java.lang.Float jad_re;
+    public static final java.lang.Float jad_sf;
+    public static final java.lang.Float jad_tg;
+    public static final java.lang.Float jad_uh;
+    public static final java.lang.Float jad_vi;
+    public static final java.lang.Float jad_wj;
+    public static final java.lang.Float jad_xk;
+    public static final java.lang.Float jad_yl;
+    public static final java.lang.Float jad_zm;
+    public static final java.lang.Integer jad_an = 1;
+    public static final java.lang.Integer jad_bo = 2;
+    public static final java.lang.Integer jad_cp = 3;
+    public static final java.lang.Integer jad_dq = 4;
+    public static final java.lang.Integer jad_er = 5;
+    public static final android.graphics.PointF jad_fs = new android.graphics.PointF();
+    public static final android.graphics.PointF jad_jt = new android.graphics.PointF();
+
+    static {
+        java.lang.Float valueOf = java.lang.Float.valueOf(15.0f);
+        jad_hu = valueOf;
+        java.lang.Float valueOf2 = java.lang.Float.valueOf(16.0f);
+        jad_iv = valueOf2;
+        java.lang.Float valueOf3 = java.lang.Float.valueOf(17.0f);
+        jad_jw = valueOf3;
+        jad_kx = new android.graphics.PointF();
+        jad_ly = new android.graphics.PointF();
+        java.lang.Float valueOf4 = java.lang.Float.valueOf(0.0f);
+        jad_mz = valueOf4;
+        jad_na = new android.graphics.PointF();
+        jad_ob = new com.jd.ad.sdk.jad_yh.jad_dq();
+        jad_pc = java.lang.Float.valueOf(1.0f);
+        jad_qd = valueOf4;
+        jad_re = valueOf4;
+        jad_sf = java.lang.Float.valueOf(2.0f);
+        jad_tg = java.lang.Float.valueOf(3.0f);
+        jad_uh = java.lang.Float.valueOf(4.0f);
+        jad_vi = java.lang.Float.valueOf(5.0f);
+        jad_wj = java.lang.Float.valueOf(6.0f);
+        jad_xk = java.lang.Float.valueOf(7.0f);
+        jad_yl = java.lang.Float.valueOf(8.0f);
+        jad_zm = java.lang.Float.valueOf(9.0f);
+        jad_cn = java.lang.Float.valueOf(10.0f);
+        jad_do = java.lang.Float.valueOf(11.0f);
+        jad_ep = java.lang.Float.valueOf(12.0f);
+        jad_fq = java.lang.Float.valueOf(12.1f);
+        jad_gr = java.lang.Float.valueOf(13.0f);
+        jad_hs = java.lang.Float.valueOf(14.0f);
+        jad_it = valueOf;
+        jad_ju = valueOf2;
+        jad_kv = valueOf3;
+        jad_lw = java.lang.Float.valueOf(18.0f);
+        jad_mx = new android.graphics.ColorFilter();
+        jad_ny = new java.lang.Integer[0];
+        jad_oz = android.graphics.Typeface.DEFAULT;
+        jad_pa = android.graphics.Bitmap.createBitmap(1, 1, android.graphics.Bitmap.Config.ALPHA_8);
+    }
+}

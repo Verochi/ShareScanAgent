@@ -1,0 +1,57 @@
+package io.reactivex.internal.operators.maybe;
+
+/* loaded from: classes11.dex */
+public final class MaybeHide<T> extends io.reactivex.internal.operators.maybe.AbstractMaybeWithUpstream<T, T> {
+
+    public static final class HideMaybeObserver<T> implements io.reactivex.MaybeObserver<T>, io.reactivex.disposables.Disposable {
+        public final io.reactivex.MaybeObserver<? super T> n;
+        public io.reactivex.disposables.Disposable t;
+
+        public HideMaybeObserver(io.reactivex.MaybeObserver<? super T> maybeObserver) {
+            this.n = maybeObserver;
+        }
+
+        @Override // io.reactivex.disposables.Disposable
+        public void dispose() {
+            this.t.dispose();
+            this.t = io.reactivex.internal.disposables.DisposableHelper.DISPOSED;
+        }
+
+        @Override // io.reactivex.disposables.Disposable
+        public boolean isDisposed() {
+            return this.t.isDisposed();
+        }
+
+        @Override // io.reactivex.MaybeObserver
+        public void onComplete() {
+            this.n.onComplete();
+        }
+
+        @Override // io.reactivex.MaybeObserver
+        public void onError(java.lang.Throwable th) {
+            this.n.onError(th);
+        }
+
+        @Override // io.reactivex.MaybeObserver
+        public void onSubscribe(io.reactivex.disposables.Disposable disposable) {
+            if (io.reactivex.internal.disposables.DisposableHelper.validate(this.t, disposable)) {
+                this.t = disposable;
+                this.n.onSubscribe(this);
+            }
+        }
+
+        @Override // io.reactivex.MaybeObserver
+        public void onSuccess(T t) {
+            this.n.onSuccess(t);
+        }
+    }
+
+    public MaybeHide(io.reactivex.MaybeSource<T> maybeSource) {
+        super(maybeSource);
+    }
+
+    @Override // io.reactivex.Maybe
+    public void subscribeActual(io.reactivex.MaybeObserver<? super T> maybeObserver) {
+        this.source.subscribe(new io.reactivex.internal.operators.maybe.MaybeHide.HideMaybeObserver(maybeObserver));
+    }
+}

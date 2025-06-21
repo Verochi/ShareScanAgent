@@ -1,0 +1,12 @@
+policyId,entity,action,data
+1,third party,collect,pii
+2,third party,collect,postal address
+3,third party,collect,contact information
+4,third party,collect,avatar
+5,third party,collect,phone number
+6,third party,collect,ip address
+7,third party,collect,username
+8,third party,collect,person name
+9,third party,collect,nickname
+10,third party,collect,log information
+11,individual,collect,pii

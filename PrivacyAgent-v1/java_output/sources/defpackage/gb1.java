@@ -1,0 +1,15 @@
+package defpackage;
+
+/* loaded from: classes14.dex */
+public final /* synthetic */ class gb1 implements java.lang.Runnable {
+    public final /* synthetic */ com.moji.shorttime.ui.player.MapRadarPlayBar n;
+
+    public /* synthetic */ gb1(com.moji.shorttime.ui.player.MapRadarPlayBar mapRadarPlayBar) {
+        this.n = mapRadarPlayBar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        com.moji.shorttime.ui.player.MapRadarPlayBar.e(this.n);
+    }
+}

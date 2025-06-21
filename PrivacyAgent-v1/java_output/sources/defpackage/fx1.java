@@ -1,0 +1,15 @@
+package defpackage;
+
+/* loaded from: classes9.dex */
+public final /* synthetic */ class fx1 implements androidx.lifecycle.Observer {
+    public final /* synthetic */ kotlin.jvm.internal.Ref.ObjectRef n;
+
+    public /* synthetic */ fx1(kotlin.jvm.internal.Ref.ObjectRef objectRef) {
+        this.n = objectRef;
+    }
+
+    @Override // androidx.lifecycle.Observer
+    public final void onChanged(java.lang.Object obj) {
+        com.moji.novice.feature.guide.PageFragment.b(this.n, (android.graphics.Bitmap) obj);
+    }
+}

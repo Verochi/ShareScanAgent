@@ -1,0 +1,10 @@
+package com.otaliastudios.cameraview;
+
+/* loaded from: classes19.dex */
+public final class BuildConfig {
+    public static final java.lang.String BUILD_TYPE = "release";
+    public static final boolean DEBUG = false;
+    public static final java.lang.String LIBRARY_PACKAGE_NAME = "com.otaliastudios.cameraview";
+    public static final int VERSION_CODE = 1;
+    public static final java.lang.String VERSION_NAME = "2.6.4";
+}

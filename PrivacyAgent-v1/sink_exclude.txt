@@ -1,0 +1,7 @@
+Landroid
+Ljava
+Lcom/google/android
+Lorg/apache
+Lio
+Lnet/lingala
+Lcom/facebook

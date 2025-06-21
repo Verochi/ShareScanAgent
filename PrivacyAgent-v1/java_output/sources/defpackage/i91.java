@@ -1,0 +1,15 @@
+package defpackage;
+
+/* loaded from: classes6.dex */
+public final /* synthetic */ class i91 implements java.lang.Runnable {
+    public final /* synthetic */ android.view.View n;
+
+    public /* synthetic */ i91(android.view.View view) {
+        this.n = view;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        com.moji.mjweather.MainFragment.c(this.n);
+    }
+}

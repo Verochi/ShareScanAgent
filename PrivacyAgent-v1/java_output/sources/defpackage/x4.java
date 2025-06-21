@@ -1,0 +1,19 @@
+package defpackage;
+
+/* loaded from: classes28.dex */
+public final /* synthetic */ class x4 implements java.lang.Runnable {
+    public final /* synthetic */ com.moji.mjad.common.network.AdIndexPriceRequest n;
+    public final /* synthetic */ com.moji.mjad.common.network.AdCommonRequestCallBack t;
+    public final /* synthetic */ java.lang.String u;
+
+    public /* synthetic */ x4(com.moji.mjad.common.network.AdIndexPriceRequest adIndexPriceRequest, com.moji.mjad.common.network.AdCommonRequestCallBack adCommonRequestCallBack, java.lang.String str) {
+        this.n = adIndexPriceRequest;
+        this.t = adCommonRequestCallBack;
+        this.u = str;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        com.moji.mjad.common.network.AdIndexPriceRequest.f(this.n, this.t, this.u);
+    }
+}
