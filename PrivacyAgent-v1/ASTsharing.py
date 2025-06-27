@@ -1,7 +1,12 @@
 import json
 import requests
 from typing import List, Optional, Dict, Any
-
+import re
+import async_llm_call
+from async_llm_call import AsyncDeepSeekAPI, run_api,call_llm,run_with_progress
+from tqdm import tqdm
+import asyncio
+from APKSharingAnalyzer_tools import remove_duplicates
 
 def split_ast_into_parts(lines: List[str], n: int = 2) -> List[str]:
     """
@@ -38,7 +43,7 @@ def split_ast_into_parts(lines: List[str], n: int = 2) -> List[str]:
 
     return result
 
-def analyze_code_data_flows(
+async def analyze_code_data_flows(
         report_json_path: str = 'report_json',
         ast_path: str = "AST_output/after_ast.txt",
         jadx_results_path: str = 'jadx_results',
@@ -71,6 +76,9 @@ def analyze_code_data_flows(
         with open(jadx_results_path, 'r', encoding='utf-8') as f:
             code = json.load(f)
         print("code:", code)
+
+        final_results = []
+        prompts = []
 
         for i in range(lenght):
             # 4. 构建prompt
@@ -116,57 +124,70 @@ def analyze_code_data_flows(
             ]
             #请不要在前与后生成无关的文字提示信息，也不要有生成说明。
             """
+            prompts.append(prompt)
 
-            api_url = "https://api.deepseek.com/v1/chat/completions"
+        llms = [AsyncDeepSeekAPI(api_key=api_key, uid=i) for i, api_key in enumerate(async_llm_call.DEFAULT_API_KEYS)]
+        results = await run_api(llms=llms, prompts=prompts, system_prompt="你是一个数据泄露的综合分析专家", times=3, temperature=0.2,max_tokens=5000)
+        retrytimes = 0
+        Maxretries = 2
 
-            headers = {
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json"
-            }
+        while retrytimes < Maxretries:
+            retries = []
+            for response in results:
+                try:
+                    #  清理响应文本（去除Markdown标记、无关字符）
+                    cleaned_response = response.strip()
+                    if cleaned_response.startswith("```json"):
+                        cleaned_response = cleaned_response[7:].strip()
+                    if cleaned_response.endswith("```"):
+                        cleaned_response = cleaned_response[:-3].strip()
 
-            payload = {
-                "model": "deepseek-chat",
-                "messages": [
-                    {"role": "user", "content": prompt}
-                ],
-                "temperature": 0.2  # 降低随机性，使输出更稳定
-            }
+                    # 解析JSON（使用json.loads而不是eval）
+                    data = json.loads(cleaned_response)
+                    if isinstance(data, list):
+                        print(f"大模型返回结果：{data}")
+                        final_results.extend(data)
+                except json.JSONDecodeError as e:  # 明确捕获JSON解析错误
+                    print(f"[错误] JSON解析失败: {e}")
+                    print(f"[原始响应]: {response}")
+                    retries.append(response)
+                except Exception as e:  # 捕获其他意外错误
+                    print(f"[意外错误] {e}")
+                    retries.append(response)
 
-            response = requests.post(api_url, json=payload, headers=headers)
-            result = response.json()
-            analysis_result = result["choices"][0]["message"]["content"]
-            print("分批次分析结果",analysis_result)
-            final_results +=analysis_result
+            # 如果没有需要重试的，提前退出
+            if not retries:
+                break
 
-        try:
-            risk_list = json.loads(final_results)
-        except json.JSONDecodeError:
-            print("警告: 无法解析模型输出为JSON，返回原始内容")
-            risk_list = [{"raw_output": analysis_result}]
+            print(f"第 {retrytimes + 1} 次重试...")
+            new_prompts = [
+                f"请严格返回合法的JSON字典列表格式，不要包含任何额外文本。请不要在列表前后返回无关内容，无风险返回空列表即可，之前的错误响应：{resp}"
+                for resp in retries
+            ]
+            results = await run_api(llms=llms, prompts=new_prompts, system_prompt=system_prompt, times=3, **kwargs)
+            retrytimes += 1
 
+        final_results = remove_duplicates(final_results)
         # 保存结果
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(risk_list, f, indent=2, ensure_ascii=False)
+            json.dump(final_results, f, indent=2, ensure_ascii=False)
 
         print(f"分析完成，结果已保存到 {output_path}")
-        print(f"发现的风险数量: {len(risk_list)}")
-        return risk_list
+        print(f"发现的风险数量: {len(final_results)}")
+        return final_results
 
-    except FileNotFoundError as e:
-        print(f"文件未找到: {str(e)}")
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {str(e)}")
     except requests.exceptions.RequestException as e:
         print(f"API调用失败: {str(e)}")
-    except Exception as e:
-        print(f"处理过程中发生错误: {str(e)}")
-
     return None
+
+
 
 
 # 使用示例
 if __name__ == "__main__":
-    result = analyze_code_data_flows(
-        ast_slice_n=3,
+    result = asyncio.run(analyze_code_data_flows(
+        ast_slice_n=10,
         api_key="sk-531ad7cd29714be1a8d0d8d8b4915320"  # 替换为真实API密钥
-    )
+    ))

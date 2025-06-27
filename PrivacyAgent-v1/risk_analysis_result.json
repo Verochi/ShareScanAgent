@@ -1,114 +1,471 @@
 [
-    {
-        "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
-        "sink_function": "Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String; -> Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "leaked_data_type": "IMEI",
-        "third_party": "getui"
-    },
-    {
-        "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
-        "sink_function": "Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String; -> Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "leaked_data_type": "MAC地址",
-        "third_party": "getui"
-    },
-    {
-        "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getAndroidId (Landroid/content/Context;)Ljava/lang/String;",
-        "sink_function": "Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getAndroidId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "leaked_data_type": "Android ID",
-        "third_party": "getui"
-    },
-    {
-        "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String;",
-        "sink_function": "Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String; -> Lcom/getui/gtc/dim/DimManager; get (Lcom/getui/gtc/dim/DimRequest;)Ljava/lang/Object;",
-        "leaked_data_type": "设备序列号",
-        "third_party": "getui"
-    },
-    {
-        "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
-        "sink_function": "Lcom/amap/api/location/AMapLocation; getLatitude ()D",
-        "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/gd; a (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/loc/gd; b (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/amap/api/location/AMapLocation; getLatitude ()D",
-        "leaked_data_type": "地理位置（纬度）",
-        "third_party": "amap"
-    },
-    {
-        "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
-        "sink_function": "Lcom/amap/api/location/AMapLocation; getAddress ()Ljava/lang/String;",
-        "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; e ()V -> Lcom/loc/j; f ()Lcom/loc/fm; -> Lcom/loc/fv; a (Lcom/amap/api/location/AMapLocation; Lorg/json/JSONObject;)V -> Lcom/amap/api/location/AMapLocation; getAddress ()Ljava/lang/String;",
-        "leaked_data_type": "地理位置地址",
-        "third_party": "amap"
-    },
-    {
-        "source_function": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
-        "sink_function": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
-        "path": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
-        "leaked_data_type": "MAC地址",
-        "third_party": "bytedance"
-    },
-    {
-        "source_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
-        "sink_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
-        "path": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
-        "leaked_data_type": "Android ID",
-        "third_party": "bytedance"
-    },
-    {
-        "source_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
-        "sink_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
-        "path": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
-        "leaked_data_type": "MAC地址",
-        "third_party": "bytedance"
-    },
-    {
-        "source_function": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
-        "sink_function": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
-        "path": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
-        "leaked_data_type": "设备ID",
-        "third_party": "meizu"
-    },
-    {
-        "source_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
-        "sink_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
-        "path": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
-        "leaked_data_type": "地理位置",
-        "third_party": "umeng"
-    },
-    {
-        "source_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
-        "sink_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
-        "path": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
-        "leaked_data_type": "地理位置（经度）",
-        "third_party": "bytedance"
-    },
-    {
-        "source_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
-        "sink_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
-        "path": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
-        "leaked_data_type": "地理位置（经度）",
-        "third_party": "bytedance"
-    },
-    {
-        "source_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
-        "sink_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
-        "path": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
-        "leaked_data_type": "用户个人信息",
-        "third_party": "tencent"
-    },
-    {
-        "source_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
-        "sink_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
-        "path": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
-        "leaked_data_type": "用户UnionID",
-        "third_party": "tencent"
-    },
-    {
-        "source_function": "Lcom/bytedance/android/live/base/api/outer/data/AnchorInfo; getFansCount ()J",
-        "sink_function": "Lcom/bytedance/android/live/base/api/outer/data/AnchorInfo; getFansCount ()J",
-        "path": "Lcom/bytedance/android/live/base/api/outer/data/AnchorInfo; getFansCount ()J",
-        "leaked_data_type": "用户粉丝数量",
-        "third_party": "bytedance"
-    }
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getLatitude ()D",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/gd; a (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/loc/gd; b (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/amap/api/location/AMapLocation; getLatitude ()D",
+    "leaked_data_type": "Location latitude",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getAdCode ()Ljava/lang/String;",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; e ()V -> Lcom/loc/j; f ()Lcom/loc/fm; -> Lcom/loc/fv; a (Lcom/amap/api/location/AMapLocation; Lorg/json/JSONObject;)V -> Lcom/amap/api/location/AMapLocation; getAdCode ()Ljava/lang/String;",
+    "leaked_data_type": "Location ad code",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/amap/api/location/AMapLocationClient; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device ID",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
+    "sink_function": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
+    "path": "Lcom/bytedance/android/live/base/api/DefaultHostPermission; getMacAddress ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/live/core/TTHostPermissionInner; getMacAddress ()Ljava/lang/String;",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/TTCustomController; getMacAddress ()Ljava/lang/String;",
+    "path": "Lcom/bytedance/sdk/openadsdk/live/core/TTHostPermissionInner; getMacAddress ()Ljava/lang/String; -> Lcom/bytedance/sdk/openadsdk/TTCustomController; getMacAddress ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
+    "path": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getAndroidId ()Ljava/lang/String;",
+    "leaked_data_type": "Android ID",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getAndroidId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getAndroidId (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getAndroidId (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Android ID",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device IMEI",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "leaked_data_type": "Device MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "OAID",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "leaked_data_type": "Device serial number",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/getui/gs/a/c$AnonymousClass4; run ()V",
+    "sink_function": "org/json/JSONObject; put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "path": "com.getui.gtc.dim.DimManager.getInstance().get() -> JSONObject.put()",
+    "leaked_data_type": "IMEI, MAC address, IMSI, Android ID",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "cn.fly.verify.x.f",
+    "sink_function": "java.net.URLEncoder.encode",
+    "path": "cn.fly.verify.fh.d.l() -> URLEncoder.encode -> JSONObject.put",
+    "leaked_data_type": "Device brand, model, system version",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "com.igexin.push.core.a.b$AnonymousClass1",
+    "sink_function": "org/json/JSONObject; put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "path": "com.igexin.push.h.n.c() -> JSONObject.put()",
+    "leaked_data_type": "IMEI, MAC address",
+    "third_party": "igexin"
+  },
+  {
+    "source_function": "com.xiaomi.push.service.cp",
+    "sink_function": "android.content.SharedPreferences; putString (Ljava/lang/String;Ljava/lang/String;)V",
+    "path": "com.xiaomi.push.ib.g() -> SharedPreferences.putString()",
+    "leaked_data_type": "Device ID",
+    "third_party": "xiaomi"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getAoiName ()Ljava/lang/String;",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; e ()V -> Lcom/loc/j; f ()Lcom/loc/fm; -> Lcom/loc/fv; a (Lcom/amap/api/location/AMapLocation; Lorg/json/JSONObject;)V -> Lcom/amap/api/location/AMapLocation; getAoiName ()Ljava/lang/String;",
+    "leaked_data_type": "Location AOI name",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getFloor ()Ljava/lang/String;",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; e ()V -> Lcom/loc/j; f ()Lcom/loc/fm; -> Lcom/loc/fv; a (Lcom/amap/api/location/AMapLocation; Lorg/json/JSONObject;)V -> Lcom/amap/api/location/AMapLocation; getFloor ()Ljava/lang/String;",
+    "leaked_data_type": "Location floor information",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getAddress ()Ljava/lang/String;",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; e ()V -> Lcom/loc/j; f ()Lcom/loc/fm; -> Lcom/loc/fv; a (Lcom/amap/api/location/AMapLocation; Lorg/json/JSONObject;)V -> Lcom/amap/api/location/AMapLocation; getAddress ()Ljava/lang/String;",
+    "leaked_data_type": "Location address",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/autonavi/base/amap/mapcore/maploader/AMapLoader; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/autonavi/base/amap/mapcore/maploader/AMapLoader; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/autonavi/base/amap/mapcore/maploader/AMapLoader; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device ID",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
+    "path": "Lcom/bytedance/sdk/openadsdk/t/vw/vw/x; getMacAddress ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
+    "sink_function": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
+    "path": "Lcom/meizu/cloud/pushsdk/handler/MessageV3; getDeviceId ()Ljava/lang/String;",
+    "leaked_data_type": "Device ID",
+    "third_party": "meizu"
+  },
+  {
+    "source_function": "cn.fly.verify.fh.d.l",
+    "sink_function": "cn.fly.verify.x.e",
+    "path": "cn.fly.verify.fh.d.l -> cn.fly.verify.x.f -> cn.fly.verify.x.e",
+    "leaked_data_type": "Device brand, model, system version",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "com.getui.gtc.extension.distribution.gbd.n.ab",
+    "sink_function": "com.getui.gtc.extension.distribution.gbd.n.ab",
+    "path": "telephonyManager.getLine1Number() -> com.getui.gtc.extension.distribution.gbd.n.ab",
+    "leaked_data_type": "Phone number",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "com.getui.gtc.extension.distribution.gbd.n.ab",
+    "sink_function": "com.getui.gtc.extension.distribution.gbd.n.ab",
+    "path": "BluetoothAdapter.getDefaultAdapter().getAddress() -> com.getui.gtc.extension.distribution.gbd.n.ab",
+    "leaked_data_type": "Bluetooth MAC address",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "com.igexin.push.core.a.b.AnonymousClass1",
+    "sink_function": "com.igexin.push.core.a.b.AnonymousClass1",
+    "path": "jSONObject.put(\"imei\", str3); -> jSONObject.put(\"mac\", aVar.d == null ? \"\" : com.igexin.push.h.n.c());",
+    "leaked_data_type": "IMEI, MAC address",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation;",
+    "sink_function": "Lcom/amap/api/location/AMapLocation; getLongitude ()D",
+    "path": "Lcom/amap/api/location/AMapLocationClient; getLastKnownLocation ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/d; e ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/j; b ()Lcom/amap/api/location/AMapLocation; -> Lcom/loc/gd; a (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/loc/gd; b (Lcom/amap/api/location/AMapLocation;)Z -> Lcom/amap/api/location/AMapLocation; getLongitude ()D",
+    "leaked_data_type": "Location longitude",
+    "third_party": "amap"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "IMEI",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String;",
+    "leaked_data_type": "Device serial number",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacShell ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacShell ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacBySystemInterface (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacBySystemInterface (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device IMEI",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacByJavaAPI ()Ljava/lang/String;",
+    "leaked_data_type": "Device MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerial ()Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "leaked_data_type": "Device serial number",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "sink_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "path": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "leaked_data_type": "Location longitude",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "path": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "leaked_data_type": "Location longitude",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "sink_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "path": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "leaked_data_type": "Location data",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "sink_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "path": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "leaked_data_type": "User personal information",
+    "third_party": "tencent"
+  },
+  {
+    "source_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "sink_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "path": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "leaked_data_type": "User UnionID",
+    "third_party": "tencent"
+  },
+  {
+    "source_function": "Lcom/huawei/hms/opendevice/OpenDeviceClient; getOdid ()Lcom/huawei/hmf/tasks/Task;",
+    "sink_function": "Lcom/huawei/hms/opendevice/OpenDeviceClient; getOdid ()Lcom/huawei/hmf/tasks/Task;",
+    "path": "Lcom/huawei/hms/opendevice/OpenDeviceClient; getOdid ()Lcom/huawei/hmf/tasks/Task;",
+    "leaked_data_type": "Device identifier",
+    "third_party": "huawei"
+  },
+  {
+    "source_function": "Lcom/huawei/hms/opendevice/j; call ()Lcom/huawei/hms/aaid/entity/AAIDResult;",
+    "sink_function": "Lcom/huawei/hms/opendevice/j; call ()Lcom/huawei/hms/aaid/entity/AAIDResult;",
+    "path": "Lcom/huawei/hms/opendevice/j; call ()Lcom/huawei/hms/aaid/entity/AAIDResult;",
+    "leaked_data_type": "Advertising ID",
+    "third_party": "huawei"
+  },
+  {
+    "source_function": "Lcom/xiaomi/mipush/sdk/MiPushClient$TokenResult; setResultCode (J)V",
+    "sink_function": "Lcom/xiaomi/mipush/sdk/MiPushClient$TokenResult; setResultCode (J)V",
+    "path": "Lcom/xiaomi/mipush/sdk/MiPushClient$TokenResult; setResultCode (J)V",
+    "leaked_data_type": "Push token",
+    "third_party": "xiaomi"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device IMEI",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "OAID",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/downloadnew/t; yl ()Lcom/bytedance/sdk/openadsdk/downloadnew/core/ITTDownloadVisitor;",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/downloadnew/t; yl ()Lcom/bytedance/sdk/openadsdk/downloadnew/core/ITTDownloadVisitor;",
+    "path": "Lcom/bytedance/sdk/openadsdk/downloadnew/t; yl ()Lcom/bytedance/sdk/openadsdk/downloadnew/core/ITTDownloadVisitor;",
+    "leaked_data_type": "Ad download information",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getOaid (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "OAID",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdUmengMD5 (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getSerialNo ()Ljava/lang/String;",
+    "leaked_data_type": "Device serial number",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdType ()Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceTypeEnum; getDeviceIdType ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdType ()Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceTypeEnum; getDeviceIdType ()Ljava/lang/String;",
+    "leaked_data_type": "Device ID type",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMeid (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMeid (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getIMEI (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "MEID/IMEI",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacBySystemInterface (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacBySystemInterface (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacShell ()Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForGeneral (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getMacShell ()Ljava/lang/String;",
+    "leaked_data_type": "MAC address",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String;",
+    "sink_function": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String;",
+    "path": "Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceId (Landroid/content/Context;)Ljava/lang/String; -> Lcom/umeng/commonsdk/statistics/common/DeviceConfig; getDeviceIdForBox (Landroid/content/Context;)Ljava/lang/String;",
+    "leaked_data_type": "Device ID",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "cn.fly.verify.fh.d.l",
+    "sink_function": "cn.fly.verify.x.e",
+    "path": "cn.fly.verify.fh.d.l -> cn.fly.verify.x.e",
+    "leaked_data_type": "Device brand",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "cn.fly.verify.fh.d.j",
+    "sink_function": "cn.fly.verify.x.e",
+    "path": "cn.fly.verify.fh.d.j -> cn.fly.verify.x.e",
+    "leaked_data_type": "Device model",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "android.os.Build.VERSION.RELEASE",
+    "sink_function": "cn.fly.verify.x.f",
+    "path": "android.os.Build.VERSION.RELEASE -> cn.fly.verify.x.f",
+    "leaked_data_type": "OS version",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "com.getui.gtc.extension.distribution.gbd.n.ab",
+    "sink_function": "com.getui.gs.a.c.AnonymousClass4.run",
+    "path": "com.getui.gtc.extension.distribution.gbd.n.ab -> com.getui.gs.a.c.AnonymousClass4.run",
+    "leaked_data_type": "Phone number, SIM state, Bluetooth MAC",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "com.igexin.push.core.a.b.AnonymousClass1",
+    "sink_function": "com.igexin.push.core.m",
+    "path": "com.igexin.push.core.a.b.AnonymousClass1 -> com.igexin.push.core.m",
+    "leaked_data_type": "IMEI, MAC address",
+    "third_party": "igexin"
+  },
+  {
+    "source_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "sink_function": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "path": "Lcom/bytedance/android/live/base/api/LocationProvider; getLongitude ()D",
+    "leaked_data_type": "地理位置信息",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "sink_function": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "path": "Lcom/bytedance/sdk/openadsdk/LocationProvider; getLongitude ()D",
+    "leaked_data_type": "地理位置信息（经度）",
+    "third_party": "bytedance"
+  },
+  {
+    "source_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "sink_function": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "path": "Lcom/umeng/analytics/AnalyticsConfig; getLocation ()[D",
+    "leaked_data_type": "地理位置信息",
+    "third_party": "umeng"
+  },
+  {
+    "source_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "sink_function": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "path": "Lcom/tencent/connect/UserInfo; getUserInfo (Lcom/tencent/tauth/IUiListener;)V",
+    "leaked_data_type": "用户个人信息",
+    "third_party": "tencent"
+  },
+  {
+    "source_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "sink_function": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "path": "Lcom/tencent/connect/UnionInfo; getUnionId (Lcom/tencent/tauth/IUiListener;)V",
+    "leaked_data_type": "用户UnionID",
+    "third_party": "tencent"
+  },
+  {
+    "source_function": "com.getui.gtc.dim.DimManager.getInstance().get",
+    "sink_function": "com.getui.gs.a.c.AnonymousClass4.run",
+    "path": "com.getui.gtc.dim.DimManager.getInstance().get -> com.getui.gs.a.c.AnonymousClass4.run",
+    "leaked_data_type": "IMEI, MAC address, IMSI, Android ID",
+    "third_party": "getui"
+  },
+  {
+    "source_function": "com.igexin.push.core.a.b.AnonymousClass1",
+    "sink_function": "org.json.JSONObject.put",
+    "path": "com.igexin.push.core.a.b.AnonymousClass1 -> org.json.JSONObject.put",
+    "leaked_data_type": "IMEI, MAC address",
+    "third_party": "igexin"
+  },
+  {
+    "source_function": "android.os.Build.VERSION.RELEASE",
+    "sink_function": "cn.fly.verify.x.e",
+    "path": "android.os.Build.VERSION.RELEASE -> cn.fly.verify.x.e",
+    "leaked_data_type": "OS version",
+    "third_party": "unknown"
+  },
+  {
+    "source_function": "com.igexin.push.core.e.e",
+    "sink_function": "com.igexin.push.core.m",
+    "path": "com.igexin.push.core.e.e -> com.igexin.push.core.m",
+    "leaked_data_type": "User tags",
+    "third_party": "igexin"
+  },
+  {
+    "source_function": "com.xiaomi.push.ib.g",
+    "sink_function": "com.xiaomi.push.service.cp",
+    "path": "com.xiaomi.push.ib.g -> com.xiaomi.push.service.cp",
+    "leaked_data_type": "Device ID",
+    "third_party": "xiaomi"
+  }
 ]
